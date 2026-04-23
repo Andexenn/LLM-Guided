@@ -1,0 +1,453 @@
+FINAL_SAVE_DIR: /mmlab_students/storageStudents/nguyenvd/UIT2024_medicare/RunBaseline/LLM-guided-Multimodal-MIL/checkpoint/synapse/v1.0/WSI_Clinical/EUMC+HUMC+SCHMC/stage_tr(1234)/resnetMC3_18-TransMIL(TransMIL)/norm_[0.6869,0.6869,3.0]/mask(X)/crop(X)/[0]2026-04-16-14:49:30
+[2026-04-16 14:49:30] train_WSI_Clinical INFO: Use GPU: 0 for training combination: WSI_Clinical.
+[2026-04-16 14:49:32] train_WSI_Clinical INFO: ---------------------------------------------------------------------------------------------------------------------------
+[2026-04-16 14:50:17] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [0][  0/127]	Time 44.943 (44.943)	Data 41.778 (41.778)	Loss 8.3197e-01 (8.3197e-01)	Acc   0.50 (  0.50)	AUC 0.0000	F1 0.6667	BACC 0.5000
+[2026-04-16 14:50:23] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [0][ 10/127]	Time  0.787 ( 4.661)	Data  0.000 ( 3.798)	Loss 8.4106e-01 (7.0431e-01)	Acc   0.50 (  0.50)	AUC 0.3125	F1 0.6207	BACC 0.4464
+[2026-04-16 14:50:26] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [0][ 20/127]	Time  0.055 ( 2.596)	Data  0.000 ( 1.990)	Loss 4.5062e-01 (6.7787e-01)	Acc   1.00 (  0.60)	AUC 0.3776	F1 0.7302	BACC 0.4821
+[2026-04-16 14:50:27] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [0][ 30/127]	Time  0.052 ( 1.776)	Data  0.000 ( 1.348)	Loss 9.1618e-01 (6.5157e-01)	Acc   0.50 (  0.65)	AUC 0.4786	F1 0.7755	BACC 0.4945
+[2026-04-16 14:50:28] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [0][ 40/127]	Time  0.053 ( 1.381)	Data  0.000 ( 1.019)	Loss 4.3190e-01 (6.5981e-01)	Acc   1.00 (  0.65)	AUC 0.4478	F1 0.7786	BACC 0.4938
+[2026-04-16 14:50:31] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [0][ 50/127]	Time  1.049 ( 1.160)	Data  0.000 ( 0.819)	Loss 2.5325e-01 (6.2731e-01)	Acc   1.00 (  0.69)	AUC 0.4927	F1 0.8095	BACC 0.5002
+[2026-04-16 14:50:35] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [0][ 60/127]	Time  1.022 ( 1.029)	Data  0.000 ( 0.685)	Loss 1.1263e+00 (6.0308e-01)	Acc   0.50 (  0.71)	AUC 0.5146	F1 0.8293	BACC 0.5035
+[2026-04-16 14:50:37] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [0][ 70/127]	Time  0.058 ( 0.918)	Data  0.000 ( 0.589)	Loss 8.3803e-01 (5.9667e-01)	Acc   0.50 (  0.72)	AUC 0.5048	F1 0.8333	BACC 0.5032
+[2026-04-16 14:50:38] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [0][ 80/127]	Time  0.055 ( 0.811)	Data  0.000 ( 0.516)	Loss 9.6036e-01 (6.0439e-01)	Acc   0.50 (  0.72)	AUC 0.5021	F1 0.8321	BACC 0.5022
+[2026-04-16 14:50:39] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [0][ 90/127]	Time  0.053 ( 0.740)	Data  0.000 ( 0.459)	Loss 3.1997e-01 (6.0684e-01)	Acc   1.00 (  0.71)	AUC 0.4965	F1 0.8312	BACC 0.5016
+[2026-04-16 14:50:40] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [0][100/127]	Time  0.054 ( 0.672)	Data  0.000 ( 0.414)	Loss 7.5420e-01 (6.1026e-01)	Acc   0.50 (  0.71)	AUC 0.4891	F1 0.8304	BACC 0.5012
+[2026-04-16 14:50:40] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [0][110/127]	Time  0.054 ( 0.616)	Data  0.000 ( 0.377)	Loss 7.9076e-01 (6.2948e-01)	Acc   0.50 (  0.70)	AUC 0.4788	F1 0.8204	BACC 0.4998
+[2026-04-16 14:50:41] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [0][120/127]	Time  0.048 ( 0.569)	Data  0.000 ( 0.346)	Loss 9.3693e-01 (6.2073e-01)	Acc   0.50 (  0.71)	AUC 0.4687	F1 0.8293	BACC 0.5006
+[2026-04-16 14:50:44] train_WSI_Clinical INFO: ---------------------------------------------------------------------------------------------------------------------------
+[2026-04-16 14:51:27] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [0][  0/127]	Time 42.326 (42.326)	Data 42.270 (42.270)	Loss 2.9308e-01 (2.9308e-01)	Acc   1.00 (  1.00)	AUC 0.0000	F1 1.0000	BACC 1.0000
+[2026-04-16 14:51:27] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [0][ 10/127]	Time  0.021 ( 3.869)	Data  0.000 ( 3.843)	Loss 2.9952e-01 (6.9408e-01)	Acc   1.00 (  0.64)	AUC 0.3125	F1 0.7778	BACC 0.5000
+[2026-04-16 14:51:27] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [0][ 20/127]	Time  0.018 ( 2.037)	Data  0.000 ( 2.013)	Loss 2.8216e-01 (7.3660e-01)	Acc   1.00 (  0.60)	AUC 0.4776	F1 0.7463	BACC 0.5000
+[2026-04-16 14:51:27] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [0][ 30/127]	Time  0.020 ( 1.386)	Data  0.000 ( 1.364)	Loss 1.8925e-01 (7.4557e-01)	Acc   1.00 (  0.60)	AUC 0.5146	F1 0.7475	BACC 0.5000
+[2026-04-16 14:51:27] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [0][ 40/127]	Time  0.020 ( 1.054)	Data  0.000 ( 1.031)	Loss 2.1468e-01 (6.6925e-01)	Acc   1.00 (  0.66)	AUC 0.5853	F1 0.7941	BACC 0.5000
+[2026-04-16 14:51:28] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [0][ 50/127]	Time  0.021 ( 0.851)	Data  0.000 ( 0.829)	Loss 9.1842e-01 (7.4773e-01)	Acc   0.50 (  0.61)	AUC 0.5383	F1 0.7561	BACC 0.5000
+[2026-04-16 14:51:28] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [0][ 60/127]	Time  0.021 ( 0.715)	Data  0.000 ( 0.693)	Loss 1.8752e-01 (7.0765e-01)	Acc   1.00 (  0.64)	AUC 0.5466	F1 0.7800	BACC 0.5000
+[2026-04-16 14:51:28] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [0][ 70/127]	Time  0.017 ( 0.617)	Data  0.000 ( 0.596)	Loss 9.0414e-01 (6.9800e-01)	Acc   0.50 (  0.65)	AUC 0.5524	F1 0.7863	BACC 0.5000
+[2026-04-16 14:51:28] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [0][ 80/127]	Time  0.020 ( 0.543)	Data  0.000 ( 0.522)	Loss 1.9219e-01 (6.5525e-01)	Acc   1.00 (  0.68)	AUC 0.5691	F1 0.8088	BACC 0.5000
+[2026-04-16 14:51:28] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [0][ 90/127]	Time  0.023 ( 0.486)	Data  0.000 ( 0.465)	Loss 1.9180e-01 (6.2923e-01)	Acc   1.00 (  0.70)	AUC 0.5832	F1 0.8220	BACC 0.5000
+[2026-04-16 14:51:29] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [0][100/127]	Time  0.018 ( 0.440)	Data  0.000 ( 0.419)	Loss 2.3409e-01 (6.0191e-01)	Acc   1.00 (  0.72)	AUC 0.5867	F1 0.8357	BACC 0.5000
+[2026-04-16 14:51:29] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [0][110/127]	Time  0.020 ( 0.402)	Data  0.000 ( 0.381)	Loss 2.0601e-01 (5.9252e-01)	Acc   1.00 (  0.73)	AUC 0.5906	F1 0.8407	BACC 0.5000
+[2026-04-16 14:51:29] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [0][120/127]	Time  0.019 ( 0.371)	Data  0.000 ( 0.350)	Loss 9.9412e-01 (5.7994e-01)	Acc   0.50 (  0.74)	AUC 0.5822	F1 0.8476	BACC 0.5000
+[2026-04-16 14:51:30] test INFO: [WSI_Clinical] Epoch 0 | AUC: 0.5814 | BACC: 0.5000 | F1: 0.8447
+[2026-04-16 14:51:30] train_WSI_Clinical INFO: ---------------------------------------------------------------------------------------------------------------------------
+[2026-04-16 14:51:42] train_WSI_Clinical INFO: ---------------------------------------------------------------------------------------------------------------------------
+[2026-04-16 14:52:26] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [1][  0/127]	Time 43.742 (43.742)	Data 43.657 (43.657)	Loss 1.8572e-01 (1.8572e-01)	Acc   1.00 (  1.00)	AUC 0.0000	F1 1.0000	BACC 1.0000
+[2026-04-16 14:52:26] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [1][ 10/127]	Time  0.073 ( 4.041)	Data  0.001 ( 3.969)	Loss 9.4507e-01 (4.6211e-01)	Acc   0.50 (  0.82)	AUC 0.6250	F1 0.9000	BACC 0.5000
+[2026-04-16 14:52:27] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [1][ 20/127]	Time  0.075 ( 2.151)	Data  0.001 ( 2.079)	Loss 2.3653e-01 (4.7526e-01)	Acc   1.00 (  0.81)	AUC 0.6029	F1 0.8947	BACC 0.5000
+[2026-04-16 14:52:28] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [1][ 30/127]	Time  0.068 ( 1.479)	Data  0.000 ( 1.409)	Loss 1.0074e+00 (4.6261e-01)	Acc   0.50 (  0.82)	AUC 0.5704	F1 0.9027	BACC 0.5000
+[2026-04-16 14:52:28] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [1][ 40/127]	Time  0.062 ( 1.135)	Data  0.000 ( 1.065)	Loss 2.4804e-01 (5.3653e-01)	Acc   1.00 (  0.77)	AUC 0.5230	F1 0.8690	BACC 0.5000
+[2026-04-16 14:52:29] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [1][ 50/127]	Time  0.063 ( 0.924)	Data  0.000 ( 0.856)	Loss 7.2168e-01 (5.6612e-01)	Acc   0.50 (  0.75)	AUC 0.4909	F1 0.8603	BACC 0.5000
+[2026-04-16 14:52:30] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [1][ 60/127]	Time  0.071 ( 0.784)	Data  0.000 ( 0.716)	Loss 4.0997e-01 (5.7463e-01)	Acc   1.00 (  0.75)	AUC 0.5018	F1 0.8598	BACC 0.5000
+[2026-04-16 14:52:30] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [1][ 70/127]	Time  0.069 ( 0.683)	Data  0.000 ( 0.615)	Loss 2.5239e-01 (5.9281e-01)	Acc   1.00 (  0.73)	AUC 0.5397	F1 0.8455	BACC 0.5000
+[2026-04-16 14:52:31] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [1][ 80/127]	Time  0.059 ( 0.607)	Data  0.000 ( 0.539)	Loss 9.3381e-01 (5.9858e-01)	Acc   0.50 (  0.73)	AUC 0.5208	F1 0.8470	BACC 0.5000
+[2026-04-16 14:52:32] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [1][ 90/127]	Time  0.058 ( 0.547)	Data  0.000 ( 0.480)	Loss 7.4519e-01 (6.1103e-01)	Acc   0.50 (  0.72)	AUC 0.5146	F1 0.8371	BACC 0.5000
+[2026-04-16 14:52:32] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [1][100/127]	Time  0.056 ( 0.499)	Data  0.000 ( 0.433)	Loss 2.9906e-01 (5.9773e-01)	Acc   1.00 (  0.73)	AUC 0.5126	F1 0.8457	BACC 0.5000
+[2026-04-16 14:52:33] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [1][110/127]	Time  0.059 ( 0.459)	Data  0.000 ( 0.394)	Loss 2.3854e-01 (5.9750e-01)	Acc   1.00 (  0.73)	AUC 0.5044	F1 0.8468	BACC 0.5000
+[2026-04-16 14:52:33] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [1][120/127]	Time  0.064 ( 0.426)	Data  0.000 ( 0.361)	Loss 9.3372e-01 (5.7968e-01)	Acc   0.50 (  0.75)	AUC 0.5187	F1 0.8558	BACC 0.5000
+[2026-04-16 14:52:35] train_WSI_Clinical INFO: ---------------------------------------------------------------------------------------------------------------------------
+[2026-04-16 14:53:17] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [1][  0/127]	Time 42.289 (42.289)	Data 42.247 (42.247)	Loss 5.7778e-01 (5.7778e-01)	Acc   1.00 (  1.00)	AUC 0.0000	F1 1.0000	BACC 1.0000
+[2026-04-16 14:53:18] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [1][ 10/127]	Time  0.025 ( 3.871)	Data  0.000 ( 3.841)	Loss 6.4696e-01 (6.6886e-01)	Acc   1.00 (  0.64)	AUC 0.3750	F1 0.7778	BACC 0.5000
+[2026-04-16 14:53:18] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [1][ 20/127]	Time  0.028 ( 2.042)	Data  0.000 ( 2.012)	Loss 5.6417e-01 (6.7335e-01)	Acc   1.00 (  0.60)	AUC 0.5365	F1 0.7463	BACC 0.5000
+[2026-04-16 14:53:18] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [1][ 30/127]	Time  0.022 ( 1.391)	Data  0.000 ( 1.363)	Loss 3.9012e-01 (6.7963e-01)	Acc   1.00 (  0.60)	AUC 0.5362	F1 0.7475	BACC 0.5000
+[2026-04-16 14:53:18] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [1][ 40/127]	Time  0.034 ( 1.057)	Data  0.000 ( 1.031)	Loss 3.9346e-01 (6.3422e-01)	Acc   1.00 (  0.66)	AUC 0.6104	F1 0.7941	BACC 0.5000
+[2026-04-16 14:53:19] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [1][ 50/127]	Time  0.027 ( 0.855)	Data  0.000 ( 0.829)	Loss 7.2486e-01 (6.7036e-01)	Acc   0.50 (  0.61)	AUC 0.5508	F1 0.7561	BACC 0.5000
+[2026-04-16 14:53:19] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [1][ 60/127]	Time  0.029 ( 0.719)	Data  0.000 ( 0.693)	Loss 3.8087e-01 (6.4930e-01)	Acc   1.00 (  0.64)	AUC 0.5638	F1 0.7800	BACC 0.5000
+[2026-04-16 14:53:19] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [1][ 70/127]	Time  0.026 ( 0.622)	Data  0.000 ( 0.595)	Loss 7.8883e-01 (6.4115e-01)	Acc   0.50 (  0.65)	AUC 0.5680	F1 0.7863	BACC 0.5000
+[2026-04-16 14:53:19] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [1][ 80/127]	Time  0.029 ( 0.548)	Data  0.000 ( 0.522)	Loss 3.8611e-01 (6.1657e-01)	Acc   1.00 (  0.68)	AUC 0.5928	F1 0.8088	BACC 0.5000
+[2026-04-16 14:53:20] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [1][ 90/127]	Time  0.032 ( 0.491)	Data  0.000 ( 0.465)	Loss 3.7691e-01 (6.0288e-01)	Acc   1.00 (  0.70)	AUC 0.6020	F1 0.8220	BACC 0.5000
+[2026-04-16 14:53:20] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [1][100/127]	Time  0.017 ( 0.444)	Data  0.000 ( 0.419)	Loss 3.4762e-01 (5.8609e-01)	Acc   1.00 (  0.72)	AUC 0.6211	F1 0.8357	BACC 0.5000
+[2026-04-16 14:53:20] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [1][110/127]	Time  0.022 ( 0.406)	Data  0.000 ( 0.381)	Loss 3.8019e-01 (5.8010e-01)	Acc   1.00 (  0.73)	AUC 0.6267	F1 0.8407	BACC 0.5000
+[2026-04-16 14:53:20] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [1][120/127]	Time  0.027 ( 0.375)	Data  0.000 ( 0.349)	Loss 8.2787e-01 (5.7175e-01)	Acc   0.50 (  0.74)	AUC 0.6347	F1 0.8476	BACC 0.5000
+[2026-04-16 14:53:22] test INFO: [WSI_Clinical] Epoch 1 | AUC: 0.6283 | BACC: 0.5000 | F1: 0.8447
+[2026-04-16 14:53:22] train_WSI_Clinical INFO: ---------------------------------------------------------------------------------------------------------------------------
+[2026-04-16 14:53:35] train_WSI_Clinical INFO: ---------------------------------------------------------------------------------------------------------------------------
+[2026-04-16 14:54:18] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [2][  0/127]	Time 42.988 (42.988)	Data 42.886 (42.886)	Loss 4.7867e-01 (4.7867e-01)	Acc   1.00 (  1.00)	AUC 0.0000	F1 1.0000	BACC 1.0000
+[2026-04-16 14:54:19] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [2][ 10/127]	Time  0.056 ( 3.965)	Data  0.000 ( 3.899)	Loss 9.0104e-01 (4.2529e-01)	Acc   0.50 (  0.91)	AUC 0.4500	F1 0.9524	BACC 0.5000
+[2026-04-16 14:54:19] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [2][ 20/127]	Time  0.062 ( 2.108)	Data  0.000 ( 2.042)	Loss 1.4573e-01 (4.1406e-01)	Acc   1.00 (  0.90)	AUC 0.3816	F1 0.9500	BACC 0.5000
+[2026-04-16 14:54:20] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [2][ 30/127]	Time  0.052 ( 1.446)	Data  0.000 ( 1.384)	Loss 8.9942e-01 (5.7979e-01)	Acc   0.50 (  0.77)	AUC 0.4673	F1 0.8727	BACC 0.5000
+[2026-04-16 14:54:21] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [2][ 40/127]	Time  0.058 ( 1.106)	Data  0.000 ( 1.046)	Loss 8.9218e-01 (5.9921e-01)	Acc   0.50 (  0.73)	AUC 0.4988	F1 0.8451	BACC 0.4918
+[2026-04-16 14:54:21] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [2][ 50/127]	Time  0.055 ( 0.901)	Data  0.000 ( 0.841)	Loss 6.9857e-01 (5.9727e-01)	Acc   0.50 (  0.73)	AUC 0.5081	F1 0.8409	BACC 0.4933
+[2026-04-16 14:54:22] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [2][ 60/127]	Time  0.065 ( 0.764)	Data  0.001 ( 0.703)	Loss 3.7556e-01 (5.9065e-01)	Acc   1.00 (  0.73)	AUC 0.5170	F1 0.8436	BACC 0.4944
+[2026-04-16 14:54:22] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [2][ 70/127]	Time  0.067 ( 0.665)	Data  0.000 ( 0.604)	Loss 8.8404e-01 (5.9997e-01)	Acc   0.50 (  0.73)	AUC 0.5091	F1 0.8408	BACC 0.4952
+[2026-04-16 14:54:23] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [2][ 80/127]	Time  0.069 ( 0.591)	Data  0.000 ( 0.530)	Loss 2.5039e-01 (5.8602e-01)	Acc   1.00 (  0.73)	AUC 0.5337	F1 0.8470	BACC 0.4958
+[2026-04-16 14:54:24] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [2][ 90/127]	Time  0.060 ( 0.533)	Data  0.000 ( 0.472)	Loss 1.6431e+00 (5.9329e-01)	Acc   0.00 (  0.73)	AUC 0.5112	F1 0.8444	BACC 0.4963
+[2026-04-16 14:54:24] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [2][100/127]	Time  0.053 ( 0.486)	Data  0.000 ( 0.425)	Loss 1.3187e+00 (5.9534e-01)	Acc   0.00 (  0.73)	AUC 0.5221	F1 0.8415	BACC 0.5057
+[2026-04-16 14:54:25] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [2][110/127]	Time  0.045 ( 0.446)	Data  0.000 ( 0.387)	Loss 8.5173e-01 (5.9427e-01)	Acc   0.50 (  0.73)	AUC 0.5171	F1 0.8399	BACC 0.5022
+[2026-04-16 14:54:25] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [2][120/127]	Time  0.047 ( 0.413)	Data  0.000 ( 0.355)	Loss 8.1204e-01 (5.9089e-01)	Acc   0.50 (  0.73)	AUC 0.5282	F1 0.8413	BACC 0.5020
+[2026-04-16 14:54:27] train_WSI_Clinical INFO: ---------------------------------------------------------------------------------------------------------------------------
+[2026-04-16 14:55:15] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [2][  0/127]	Time 48.692 (48.692)	Data 48.655 (48.655)	Loss 4.4148e-01 (4.4148e-01)	Acc   1.00 (  1.00)	AUC 0.0000	F1 1.0000	BACC 1.0000
+[2026-04-16 14:55:16] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [2][ 10/127]	Time  0.024 ( 4.451)	Data  0.000 ( 4.423)	Loss 5.3231e-01 (6.5558e-01)	Acc   1.00 (  0.64)	AUC 0.4375	F1 0.7778	BACC 0.5000
+[2026-04-16 14:55:16] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [2][ 20/127]	Time  0.022 ( 2.344)	Data  0.000 ( 2.317)	Loss 4.3587e-01 (6.7253e-01)	Acc   1.00 (  0.60)	AUC 0.5671	F1 0.7463	BACC 0.5000
+[2026-04-16 14:55:16] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [2][ 30/127]	Time  0.022 ( 1.596)	Data  0.000 ( 1.570)	Loss 2.8127e-01 (6.9135e-01)	Acc   1.00 (  0.60)	AUC 0.5503	F1 0.7475	BACC 0.5000
+[2026-04-16 14:55:16] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [2][ 40/127]	Time  0.023 ( 1.212)	Data  0.000 ( 1.187)	Loss 2.6273e-01 (6.3172e-01)	Acc   1.00 (  0.66)	AUC 0.6138	F1 0.7941	BACC 0.5000
+[2026-04-16 14:55:16] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [2][ 50/127]	Time  0.023 ( 0.979)	Data  0.000 ( 0.954)	Loss 8.3844e-01 (6.9667e-01)	Acc   0.50 (  0.61)	AUC 0.5476	F1 0.7561	BACC 0.5000
+[2026-04-16 14:55:17] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [2][ 60/127]	Time  0.022 ( 0.822)	Data  0.000 ( 0.798)	Loss 2.6799e-01 (6.6750e-01)	Acc   1.00 (  0.64)	AUC 0.5574	F1 0.7800	BACC 0.5000
+[2026-04-16 14:55:17] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [2][ 70/127]	Time  0.019 ( 0.709)	Data  0.000 ( 0.686)	Loss 8.9350e-01 (6.5837e-01)	Acc   0.50 (  0.65)	AUC 0.5635	F1 0.7863	BACC 0.5000
+[2026-04-16 14:55:17] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [2][ 80/127]	Time  0.022 ( 0.624)	Data  0.000 ( 0.601)	Loss 2.7499e-01 (6.2229e-01)	Acc   1.00 (  0.68)	AUC 0.5871	F1 0.8088	BACC 0.5000
+[2026-04-16 14:55:17] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [2][ 90/127]	Time  0.023 ( 0.558)	Data  0.000 ( 0.535)	Loss 2.5993e-01 (6.0255e-01)	Acc   1.00 (  0.70)	AUC 0.5927	F1 0.8220	BACC 0.5000
+[2026-04-16 14:55:18] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [2][100/127]	Time  0.017 ( 0.505)	Data  0.000 ( 0.482)	Loss 2.4036e-01 (5.7870e-01)	Acc   1.00 (  0.72)	AUC 0.6111	F1 0.8357	BACC 0.5000
+[2026-04-16 14:55:18] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [2][110/127]	Time  0.019 ( 0.461)	Data  0.000 ( 0.439)	Loss 2.5380e-01 (5.6986e-01)	Acc   1.00 (  0.73)	AUC 0.6210	F1 0.8407	BACC 0.5000
+[2026-04-16 14:55:18] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [2][120/127]	Time  0.019 ( 0.425)	Data  0.000 ( 0.402)	Loss 9.6309e-01 (5.5741e-01)	Acc   0.50 (  0.74)	AUC 0.6287	F1 0.8476	BACC 0.5000
+[2026-04-16 14:55:19] test INFO: [WSI_Clinical] Epoch 2 | AUC: 0.6215 | BACC: 0.5000 | F1: 0.8447
+[2026-04-16 14:55:19] train_WSI_Clinical INFO: ---------------------------------------------------------------------------------------------------------------------------
+[2026-04-16 14:55:23] train_WSI_Clinical INFO: ---------------------------------------------------------------------------------------------------------------------------
+[2026-04-16 14:56:04] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [3][  0/127]	Time 40.637 (40.637)	Data 40.546 (40.546)	Loss 3.0023e-01 (3.0023e-01)	Acc   1.00 (  1.00)	AUC 0.0000	F1 1.0000	BACC 1.0000
+[2026-04-16 14:56:05] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [3][ 10/127]	Time  0.056 ( 3.752)	Data  0.000 ( 3.686)	Loss 1.1233e+00 (5.9117e-01)	Acc   0.50 (  0.77)	AUC 0.4353	F1 0.8718	BACC 0.5000
+[2026-04-16 14:56:05] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [3][ 20/127]	Time  0.073 ( 2.001)	Data  0.000 ( 1.931)	Loss 3.3665e-01 (5.2201e-01)	Acc   1.00 (  0.81)	AUC 0.4265	F1 0.8947	BACC 0.5000
+[2026-04-16 14:56:06] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [3][ 30/127]	Time  0.073 ( 1.379)	Data  0.000 ( 1.308)	Loss 3.5505e-01 (5.8836e-01)	Acc   1.00 (  0.74)	AUC 0.4891	F1 0.8519	BACC 0.5000
+[2026-04-16 14:56:07] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [3][ 40/127]	Time  0.059 ( 1.059)	Data  0.000 ( 0.989)	Loss 6.3253e-01 (5.5847e-01)	Acc   0.50 (  0.76)	AUC 0.5371	F1 0.8611	BACC 0.5000
+[2026-04-16 14:56:07] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [3][ 50/127]	Time  0.073 ( 0.864)	Data  0.000 ( 0.795)	Loss 7.6244e-01 (5.9073e-01)	Acc   0.50 (  0.73)	AUC 0.5874	F1 0.8409	BACC 0.5000
+[2026-04-16 14:56:08] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [3][ 60/127]	Time  0.064 ( 0.733)	Data  0.000 ( 0.665)	Loss 1.9368e-01 (5.5553e-01)	Acc   1.00 (  0.76)	AUC 0.5610	F1 0.8651	BACC 0.5000
+[2026-04-16 14:56:09] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [3][ 70/127]	Time  0.063 ( 0.638)	Data  0.000 ( 0.571)	Loss 4.2504e-01 (5.5613e-01)	Acc   1.00 (  0.76)	AUC 0.5784	F1 0.8640	BACC 0.5000
+[2026-04-16 14:56:09] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [3][ 80/127]	Time  0.057 ( 0.566)	Data  0.000 ( 0.501)	Loss 1.8076e-01 (5.4408e-01)	Acc   1.00 (  0.77)	AUC 0.5919	F1 0.8671	BACC 0.5000
+[2026-04-16 14:56:10] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [3][ 90/127]	Time  0.063 ( 0.511)	Data  0.000 ( 0.446)	Loss 2.6825e-01 (5.5834e-01)	Acc   1.00 (  0.76)	AUC 0.5488	F1 0.8660	BACC 0.5000
+[2026-04-16 14:56:10] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [3][100/127]	Time  0.057 ( 0.466)	Data  0.000 ( 0.402)	Loss 7.2718e-01 (5.7763e-01)	Acc   0.50 (  0.75)	AUC 0.5485	F1 0.8555	BACC 0.5000
+[2026-04-16 14:56:11] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [3][110/127]	Time  0.045 ( 0.429)	Data  0.000 ( 0.366)	Loss 9.4638e-01 (5.8330e-01)	Acc   0.50 (  0.74)	AUC 0.5562	F1 0.8519	BACC 0.5086
+[2026-04-16 14:56:11] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [3][120/127]	Time  0.051 ( 0.398)	Data  0.000 ( 0.335)	Loss 2.5516e-01 (5.8402e-01)	Acc   1.00 (  0.74)	AUC 0.5437	F1 0.8524	BACC 0.5079
+[2026-04-16 14:56:13] train_WSI_Clinical INFO: ---------------------------------------------------------------------------------------------------------------------------
+[2026-04-16 14:56:57] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [3][  0/127]	Time 43.926 (43.926)	Data 43.885 (43.885)	Loss 5.7557e-01 (5.7557e-01)	Acc   1.00 (  1.00)	AUC 0.0000	F1 1.0000	BACC 1.0000
+[2026-04-16 14:56:57] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [3][ 10/127]	Time  0.022 ( 4.015)	Data  0.000 ( 3.990)	Loss 7.1335e-01 (6.6571e-01)	Acc   0.50 (  0.59)	AUC 0.4821	F1 0.7429	BACC 0.4643
+[2026-04-16 14:56:57] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [3][ 20/127]	Time  0.020 ( 2.113)	Data  0.000 ( 2.090)	Loss 5.7539e-01 (6.6781e-01)	Acc   1.00 (  0.57)	AUC 0.5741	F1 0.7188	BACC 0.4894
+[2026-04-16 14:56:57] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [3][ 30/127]	Time  0.029 ( 1.439)	Data  0.000 ( 1.416)	Loss 3.5021e-01 (6.8042e-01)	Acc   1.00 (  0.58)	AUC 0.5514	F1 0.7292	BACC 0.4930
+[2026-04-16 14:56:58] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [3][ 40/127]	Time  0.024 ( 1.094)	Data  0.000 ( 1.071)	Loss 3.4011e-01 (6.2870e-01)	Acc   1.00 (  0.65)	AUC 0.6065	F1 0.7820	BACC 0.4993
+[2026-04-16 14:56:58] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [3][ 50/127]	Time  0.021 ( 0.884)	Data  0.000 ( 0.861)	Loss 7.5709e-01 (6.7473e-01)	Acc   0.50 (  0.60)	AUC 0.5500	F1 0.7453	BACC 0.4964
+[2026-04-16 14:56:58] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [3][ 60/127]	Time  0.022 ( 0.743)	Data  0.000 ( 0.720)	Loss 3.3787e-01 (6.5125e-01)	Acc   1.00 (  0.63)	AUC 0.5626	F1 0.7716	BACC 0.4985
+[2026-04-16 14:56:58] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [3][ 70/127]	Time  0.019 ( 0.641)	Data  0.000 ( 0.618)	Loss 8.3840e-01 (6.4172e-01)	Acc   0.50 (  0.64)	AUC 0.5761	F1 0.7792	BACC 0.4991
+[2026-04-16 14:56:58] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [3][ 80/127]	Time  0.021 ( 0.564)	Data  0.000 ( 0.542)	Loss 3.5191e-01 (6.1247e-01)	Acc   1.00 (  0.67)	AUC 0.6017	F1 0.8030	BACC 0.5005
+[2026-04-16 14:56:59] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [3][ 90/127]	Time  0.021 ( 0.505)	Data  0.000 ( 0.483)	Loss 3.2725e-01 (5.9671e-01)	Acc   1.00 (  0.69)	AUC 0.6110	F1 0.8170	BACC 0.5012
+[2026-04-16 14:56:59] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [3][100/127]	Time  0.017 ( 0.456)	Data  0.000 ( 0.435)	Loss 2.8927e-01 (5.7672e-01)	Acc   1.00 (  0.71)	AUC 0.6302	F1 0.8314	BACC 0.5019
+[2026-04-16 14:56:59] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [3][110/127]	Time  0.020 ( 0.417)	Data  0.000 ( 0.396)	Loss 3.2830e-01 (5.6937e-01)	Acc   1.00 (  0.72)	AUC 0.6365	F1 0.8368	BACC 0.5020
+[2026-04-16 14:56:59] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [3][120/127]	Time  0.019 ( 0.384)	Data  0.000 ( 0.363)	Loss 8.9587e-01 (5.5927e-01)	Acc   0.50 (  0.73)	AUC 0.6446	F1 0.8441	BACC 0.5022
+[2026-04-16 14:57:01] test INFO: [WSI_Clinical] Epoch 3 | AUC: 0.6370 | BACC: 0.5019 | F1: 0.8414
+[2026-04-16 14:57:01] train_WSI_Clinical INFO: ---------------------------------------------------------------------------------------------------------------------------
+[2026-04-16 14:57:13] train_WSI_Clinical INFO: ---------------------------------------------------------------------------------------------------------------------------
+[2026-04-16 14:57:55] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [4][  0/127]	Time 41.589 (41.589)	Data 41.502 (41.502)	Loss 9.7522e-01 (9.7522e-01)	Acc   0.00 (  0.00)	AUC 0.0000	F1 0.0000	BACC 0.0000
+[2026-04-16 14:57:55] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [4][ 10/127]	Time  0.060 ( 3.837)	Data  0.000 ( 3.773)	Loss 1.2821e+00 (5.9297e-01)	Acc   0.00 (  0.64)	AUC 0.7768	F1 0.7778	BACC 0.5000
+[2026-04-16 14:57:56] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [4][ 20/127]	Time  0.062 ( 2.041)	Data  0.000 ( 1.977)	Loss 3.8403e-01 (6.0969e-01)	Acc   1.00 (  0.62)	AUC 0.6786	F1 0.7647	BACC 0.4643
+[2026-04-16 14:57:56] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [4][ 30/127]	Time  0.062 ( 1.402)	Data  0.000 ( 1.339)	Loss 5.3702e-01 (5.7656e-01)	Acc   0.50 (  0.68)	AUC 0.6856	F1 0.8039	BACC 0.4937
+[2026-04-16 14:57:57] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [4][ 40/127]	Time  0.065 ( 1.077)	Data  0.000 ( 1.013)	Loss 2.8126e-01 (5.7775e-01)	Acc   1.00 (  0.70)	AUC 0.6492	F1 0.8175	BACC 0.4894
+[2026-04-16 14:57:58] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [4][ 50/127]	Time  0.063 ( 0.878)	Data  0.000 ( 0.814)	Loss 3.9218e-01 (5.9410e-01)	Acc   1.00 (  0.69)	AUC 0.6330	F1 0.8118	BACC 0.4898
+[2026-04-16 14:57:58] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [4][ 60/127]	Time  0.059 ( 0.743)	Data  0.000 ( 0.681)	Loss 4.0081e-01 (5.9862e-01)	Acc   1.00 (  0.70)	AUC 0.6289	F1 0.8141	BACC 0.5305
+[2026-04-16 14:57:59] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [4][ 70/127]	Time  0.052 ( 0.646)	Data  0.000 ( 0.585)	Loss 9.6496e-01 (6.1819e-01)	Acc   0.50 (  0.69)	AUC 0.5863	F1 0.8103	BACC 0.5250
+[2026-04-16 14:57:59] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [4][ 80/127]	Time  0.071 ( 0.574)	Data  0.000 ( 0.513)	Loss 6.8024e-01 (6.2160e-01)	Acc   0.50 (  0.69)	AUC 0.5868	F1 0.8075	BACC 0.5212
+[2026-04-16 14:58:00] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [4][ 90/127]	Time  0.057 ( 0.518)	Data  0.000 ( 0.456)	Loss 6.3407e-01 (6.1824e-01)	Acc   0.50 (  0.69)	AUC 0.5805	F1 0.8121	BACC 0.5279
+[2026-04-16 14:58:01] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [4][100/127]	Time  0.057 ( 0.473)	Data  0.000 ( 0.411)	Loss 2.4413e-01 (6.1037e-01)	Acc   1.00 (  0.70)	AUC 0.5678	F1 0.8168	BACC 0.5205
+[2026-04-16 14:58:01] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [4][110/127]	Time  0.048 ( 0.435)	Data  0.000 ( 0.374)	Loss 1.6551e-01 (5.8930e-01)	Acc   1.00 (  0.72)	AUC 0.5905	F1 0.8302	BACC 0.5216
+[2026-04-16 14:58:02] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [4][120/127]	Time  0.062 ( 0.404)	Data  0.000 ( 0.343)	Loss 8.6655e-01 (5.9134e-01)	Acc   0.50 (  0.72)	AUC 0.5885	F1 0.8325	BACC 0.5202
+[2026-04-16 14:58:03] train_WSI_Clinical INFO: ---------------------------------------------------------------------------------------------------------------------------
+[2026-04-16 14:58:51] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [4][  0/127]	Time 48.064 (48.064)	Data 48.021 (48.021)	Loss 3.3463e-01 (3.3463e-01)	Acc   1.00 (  1.00)	AUC 0.0000	F1 1.0000	BACC 1.0000
+[2026-04-16 14:58:52] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [4][ 10/127]	Time  0.026 ( 4.393)	Data  0.000 ( 4.366)	Loss 4.1492e-01 (6.6169e-01)	Acc   1.00 (  0.64)	AUC 0.5357	F1 0.7778	BACC 0.5000
+[2026-04-16 14:58:52] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [4][ 20/127]	Time  0.024 ( 2.313)	Data  0.000 ( 2.287)	Loss 3.3896e-01 (6.8977e-01)	Acc   1.00 (  0.60)	AUC 0.6165	F1 0.7463	BACC 0.5000
+[2026-04-16 14:58:52] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [4][ 30/127]	Time  0.023 ( 1.575)	Data  0.000 ( 1.549)	Loss 1.6984e-01 (7.1592e-01)	Acc   1.00 (  0.60)	AUC 0.5795	F1 0.7475	BACC 0.5000
+[2026-04-16 14:58:52] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [4][ 40/127]	Time  0.025 ( 1.197)	Data  0.000 ( 1.171)	Loss 1.8824e-01 (6.4598e-01)	Acc   1.00 (  0.66)	AUC 0.6455	F1 0.7941	BACC 0.5000
+[2026-04-16 14:58:53] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [4][ 50/127]	Time  0.023 ( 0.967)	Data  0.000 ( 0.942)	Loss 9.3636e-01 (7.3748e-01)	Acc   0.50 (  0.61)	AUC 0.5798	F1 0.7561	BACC 0.5000
+[2026-04-16 14:58:53] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [4][ 60/127]	Time  0.025 ( 0.813)	Data  0.000 ( 0.787)	Loss 1.6601e-01 (7.0008e-01)	Acc   1.00 (  0.64)	AUC 0.5868	F1 0.7800	BACC 0.5000
+[2026-04-16 14:58:53] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [4][ 70/127]	Time  0.027 ( 0.702)	Data  0.000 ( 0.677)	Loss 9.7961e-01 (6.9083e-01)	Acc   0.50 (  0.65)	AUC 0.5924	F1 0.7863	BACC 0.5000
+[2026-04-16 14:58:53] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [4][ 80/127]	Time  0.026 ( 0.618)	Data  0.000 ( 0.593)	Loss 1.8087e-01 (6.4598e-01)	Acc   1.00 (  0.68)	AUC 0.6171	F1 0.8088	BACC 0.5000
+[2026-04-16 14:58:54] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [4][ 90/127]	Time  0.023 ( 0.552)	Data  0.000 ( 0.528)	Loss 1.6243e-01 (6.1995e-01)	Acc   1.00 (  0.70)	AUC 0.6292	F1 0.8220	BACC 0.5000
+[2026-04-16 14:58:54] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [4][100/127]	Time  0.021 ( 0.500)	Data  0.000 ( 0.476)	Loss 1.8739e-01 (5.9066e-01)	Acc   1.00 (  0.72)	AUC 0.6437	F1 0.8357	BACC 0.5000
+[2026-04-16 14:58:54] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [4][110/127]	Time  0.023 ( 0.457)	Data  0.000 ( 0.433)	Loss 1.7734e-01 (5.8126e-01)	Acc   1.00 (  0.73)	AUC 0.6522	F1 0.8407	BACC 0.5000
+[2026-04-16 14:58:56] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [4][120/127]	Time  0.027 ( 0.433)	Data  0.000 ( 0.409)	Loss 1.1409e+00 (5.6802e-01)	Acc   0.50 (  0.74)	AUC 0.6520	F1 0.8476	BACC 0.5000
+[2026-04-16 14:58:57] test INFO: [WSI_Clinical] Epoch 4 | AUC: 0.6503 | BACC: 0.5000 | F1: 0.8447
+[2026-04-16 14:58:57] train_WSI_Clinical INFO: ---------------------------------------------------------------------------------------------------------------------------
+[2026-04-16 14:59:32] train_WSI_Clinical INFO: ---------------------------------------------------------------------------------------------------------------------------
+[2026-04-16 15:00:33] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [5][  0/127]	Time 60.225 (60.225)	Data 60.145 (60.145)	Loss 1.6399e-01 (1.6399e-01)	Acc   1.00 (  1.00)	AUC 0.0000	F1 1.0000	BACC 1.0000
+[2026-04-16 15:00:33] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [5][ 10/127]	Time  0.050 ( 5.537)	Data  0.000 ( 5.474)	Loss 2.3575e-01 (5.7811e-01)	Acc   1.00 (  0.73)	AUC 0.7188	F1 0.8421	BACC 0.5000
+[2026-04-16 15:00:34] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [5][ 20/127]	Time  0.072 ( 2.931)	Data  0.000 ( 2.868)	Loss 2.5433e-01 (6.2049e-01)	Acc   1.00 (  0.69)	AUC 0.6684	F1 0.8169	BACC 0.5000
+[2026-04-16 15:00:35] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [5][ 30/127]	Time  0.069 ( 2.008)	Data  0.000 ( 1.943)	Loss 2.1500e-01 (5.6858e-01)	Acc   1.00 (  0.74)	AUC 0.5897	F1 0.8519	BACC 0.5000
+[2026-04-16 15:00:35] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [5][ 40/127]	Time  0.064 ( 1.533)	Data  0.000 ( 1.469)	Loss 9.0563e-01 (6.1341e-01)	Acc   0.00 (  0.70)	AUC 0.6013	F1 0.8201	BACC 0.4914
+[2026-04-16 15:00:36] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [5][ 50/127]	Time  0.057 ( 1.245)	Data  0.000 ( 1.181)	Loss 3.0082e-01 (6.0062e-01)	Acc   1.00 (  0.71)	AUC 0.5834	F1 0.8276	BACC 0.4932
+[2026-04-16 15:00:37] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [5][ 60/127]	Time  0.056 ( 1.059)	Data  0.000 ( 0.996)	Loss 2.4729e-01 (5.9733e-01)	Acc   1.00 (  0.70)	AUC 0.6181	F1 0.8269	BACC 0.4943
+[2026-04-16 15:00:38] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [5][ 70/127]	Time  0.067 ( 0.922)	Data  0.000 ( 0.858)	Loss 1.0028e+00 (6.0850e-01)	Acc   0.50 (  0.70)	AUC 0.5907	F1 0.8216	BACC 0.4901
+[2026-04-16 15:00:39] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [5][ 80/127]	Time  0.054 ( 0.816)	Data  0.000 ( 0.752)	Loss 5.9083e-01 (5.8958e-01)	Acc   0.50 (  0.71)	AUC 0.5822	F1 0.8303	BACC 0.4873
+[2026-04-16 15:00:39] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [5][ 90/127]	Time  0.146 ( 0.733)	Data  0.080 ( 0.670)	Loss 1.0817e+00 (5.9790e-01)	Acc   0.00 (  0.70)	AUC 0.5936	F1 0.8258	BACC 0.4885
+[2026-04-16 15:00:40] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [5][100/127]	Time  0.046 ( 0.666)	Data  0.000 ( 0.604)	Loss 2.9514e-01 (5.9444e-01)	Acc   1.00 (  0.70)	AUC 0.6011	F1 0.8256	BACC 0.4897
+[2026-04-16 15:00:40] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [5][110/127]	Time  0.210 ( 0.613)	Data  0.145 ( 0.551)	Loss 4.5975e-01 (5.8404e-01)	Acc   1.00 (  0.71)	AUC 0.6097	F1 0.8316	BACC 0.4907
+[2026-04-16 15:00:41] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [5][120/127]	Time  0.057 ( 0.567)	Data  0.000 ( 0.505)	Loss 2.9762e-01 (5.8579e-01)	Acc   1.00 (  0.71)	AUC 0.6295	F1 0.8281	BACC 0.4914
+[2026-04-16 15:00:43] train_WSI_Clinical INFO: ---------------------------------------------------------------------------------------------------------------------------
+[2026-04-16 15:01:32] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [5][  0/127]	Time 49.535 (49.535)	Data 49.498 (49.498)	Loss 3.9374e-01 (3.9374e-01)	Acc   1.00 (  1.00)	AUC 0.0000	F1 1.0000	BACC 1.0000
+[2026-04-16 15:01:32] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [5][ 10/127]	Time  0.024 ( 4.525)	Data  0.000 ( 4.500)	Loss 4.7707e-01 (6.5465e-01)	Acc   1.00 (  0.64)	AUC 0.5000	F1 0.7778	BACC 0.5000
+[2026-04-16 15:01:33] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [5][ 20/127]	Time  0.024 ( 2.382)	Data  0.000 ( 2.357)	Loss 4.0044e-01 (6.7057e-01)	Acc   1.00 (  0.60)	AUC 0.6376	F1 0.7463	BACC 0.5000
+[2026-04-16 15:01:33] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [5][ 30/127]	Time  0.022 ( 1.621)	Data  0.000 ( 1.597)	Loss 1.9692e-01 (6.8890e-01)	Acc   1.00 (  0.60)	AUC 0.6097	F1 0.7475	BACC 0.5000
+[2026-04-16 15:01:33] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [5][ 40/127]	Time  0.021 ( 1.231)	Data  0.000 ( 1.208)	Loss 2.2497e-01 (6.2820e-01)	Acc   1.00 (  0.66)	AUC 0.6647	F1 0.7941	BACC 0.5000
+[2026-04-16 15:01:33] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [5][ 50/127]	Time  0.027 ( 0.995)	Data  0.000 ( 0.971)	Loss 8.5853e-01 (7.0931e-01)	Acc   0.50 (  0.61)	AUC 0.5944	F1 0.7561	BACC 0.5000
+[2026-04-16 15:01:34] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [5][ 60/127]	Time  0.020 ( 0.836)	Data  0.000 ( 0.812)	Loss 1.9320e-01 (6.7559e-01)	Acc   1.00 (  0.64)	AUC 0.6020	F1 0.7800	BACC 0.5000
+[2026-04-16 15:01:34] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [5][ 70/127]	Time  0.018 ( 0.721)	Data  0.000 ( 0.697)	Loss 9.2828e-01 (6.6495e-01)	Acc   0.50 (  0.65)	AUC 0.6085	F1 0.7863	BACC 0.5000
+[2026-04-16 15:01:34] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [5][ 80/127]	Time  0.023 ( 0.634)	Data  0.000 ( 0.611)	Loss 2.1216e-01 (6.2435e-01)	Acc   1.00 (  0.68)	AUC 0.6316	F1 0.8088	BACC 0.5000
+[2026-04-16 15:01:34] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [5][ 90/127]	Time  0.021 ( 0.567)	Data  0.000 ( 0.544)	Loss 1.8559e-01 (6.0067e-01)	Acc   1.00 (  0.70)	AUC 0.6412	F1 0.8220	BACC 0.5000
+[2026-04-16 15:01:34] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [5][100/127]	Time  0.017 ( 0.513)	Data  0.000 ( 0.490)	Loss 2.1672e-01 (5.7374e-01)	Acc   1.00 (  0.72)	AUC 0.6596	F1 0.8357	BACC 0.5000
+[2026-04-16 15:01:35] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [5][110/127]	Time  0.020 ( 0.468)	Data  0.000 ( 0.446)	Loss 2.0523e-01 (5.6521e-01)	Acc   1.00 (  0.73)	AUC 0.6640	F1 0.8407	BACC 0.5000
+[2026-04-16 15:01:35] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [5][120/127]	Time  0.019 ( 0.431)	Data  0.000 ( 0.409)	Loss 1.1569e+00 (5.5391e-01)	Acc   0.50 (  0.74)	AUC 0.6654	F1 0.8476	BACC 0.5000
+[2026-04-16 15:01:36] test INFO: [WSI_Clinical] Epoch 5 | AUC: 0.6613 | BACC: 0.5000 | F1: 0.8447
+[2026-04-16 15:01:36] train_WSI_Clinical INFO: ---------------------------------------------------------------------------------------------------------------------------
+[2026-04-16 15:01:49] train_WSI_Clinical INFO: ---------------------------------------------------------------------------------------------------------------------------
+[2026-04-16 15:02:31] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [6][  0/127]	Time 42.690 (42.690)	Data 42.603 (42.603)	Loss 1.4354e-01 (1.4354e-01)	Acc   1.00 (  1.00)	AUC 0.0000	F1 1.0000	BACC 1.0000
+[2026-04-16 15:02:32] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [6][ 10/127]	Time  0.063 ( 3.942)	Data  0.000 ( 3.873)	Loss 2.1311e-01 (3.1479e-01)	Acc   1.00 (  0.91)	AUC 0.5750	F1 0.9524	BACC 0.5000
+[2026-04-16 15:02:33] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [6][ 20/127]	Time  0.072 ( 2.097)	Data  0.000 ( 2.029)	Loss 3.8825e-01 (4.9454e-01)	Acc   1.00 (  0.81)	AUC 0.5515	F1 0.8947	BACC 0.5000
+[2026-04-16 15:02:33] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [6][ 30/127]	Time  0.058 ( 1.441)	Data  0.000 ( 1.375)	Loss 6.9111e-01 (5.5201e-01)	Acc   0.50 (  0.74)	AUC 0.6522	F1 0.8519	BACC 0.5000
+[2026-04-16 15:02:34] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [6][ 40/127]	Time  0.065 ( 1.106)	Data  0.000 ( 1.039)	Loss 4.1117e-01 (5.6843e-01)	Acc   1.00 (  0.74)	AUC 0.6197	F1 0.8511	BACC 0.5227
+[2026-04-16 15:02:35] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [6][ 50/127]	Time  0.077 ( 0.903)	Data  0.000 ( 0.836)	Loss 3.8728e-01 (5.7582e-01)	Acc   1.00 (  0.75)	AUC 0.5980	F1 0.8523	BACC 0.5185
+[2026-04-16 15:02:35] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [6][ 60/127]	Time  0.074 ( 0.767)	Data  0.001 ( 0.699)	Loss 3.6987e-01 (5.8375e-01)	Acc   1.00 (  0.75)	AUC 0.5729	F1 0.8531	BACC 0.5156
+[2026-04-16 15:02:36] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [6][ 70/127]	Time  0.054 ( 0.667)	Data  0.000 ( 0.600)	Loss 1.2282e+00 (5.9982e-01)	Acc   0.00 (  0.73)	AUC 0.5821	F1 0.8395	BACC 0.5125
+[2026-04-16 15:02:37] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [6][ 80/127]	Time  0.056 ( 0.597)	Data  0.000 ( 0.532)	Loss 9.5992e-01 (6.0374e-01)	Acc   0.50 (  0.72)	AUC 0.5487	F1 0.8375	BACC 0.5068
+[2026-04-16 15:02:37] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [6][ 90/127]	Time  0.061 ( 0.538)	Data  0.000 ( 0.474)	Loss 8.1638e-01 (6.1143e-01)	Acc   0.00 (  0.71)	AUC 0.5625	F1 0.8262	BACC 0.5200
+[2026-04-16 15:02:39] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [6][100/127]	Time  0.054 ( 0.496)	Data  0.000 ( 0.432)	Loss 3.0024e-01 (5.8718e-01)	Acc   1.00 (  0.73)	AUC 0.5529	F1 0.8430	BACC 0.5205
+[2026-04-16 15:02:39] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [6][110/127]	Time  0.054 ( 0.457)	Data  0.000 ( 0.393)	Loss 6.3742e-01 (5.9943e-01)	Acc   0.50 (  0.72)	AUC 0.5581	F1 0.8351	BACC 0.5175
+[2026-04-16 15:02:40] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [6][120/127]	Time  0.052 ( 0.423)	Data  0.000 ( 0.361)	Loss 5.3339e-01 (5.8991e-01)	Acc   0.50 (  0.73)	AUC 0.5695	F1 0.8398	BACC 0.5167
+[2026-04-16 15:02:41] train_WSI_Clinical INFO: ---------------------------------------------------------------------------------------------------------------------------
+[2026-04-16 15:03:32] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [6][  0/127]	Time 50.699 (50.699)	Data 50.655 (50.655)	Loss 4.1323e-01 (4.1323e-01)	Acc   1.00 (  1.00)	AUC 0.0000	F1 1.0000	BACC 1.0000
+[2026-04-16 15:03:32] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [6][ 10/127]	Time  0.020 ( 4.628)	Data  0.000 ( 4.605)	Loss 5.3292e-01 (6.4419e-01)	Acc   1.00 (  0.64)	AUC 0.5625	F1 0.7778	BACC 0.5000
+[2026-04-16 15:03:33] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [6][ 20/127]	Time  0.306 ( 2.450)	Data  0.282 ( 2.428)	Loss 4.2773e-01 (6.5885e-01)	Acc   1.00 (  0.60)	AUC 0.6376	F1 0.7463	BACC 0.5000
+[2026-04-16 15:03:33] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [6][ 30/127]	Time  0.102 ( 1.687)	Data  0.079 ( 1.665)	Loss 1.9595e-01 (6.8066e-01)	Acc   1.00 (  0.60)	AUC 0.5989	F1 0.7475	BACC 0.5000
+[2026-04-16 15:03:34] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [6][ 40/127]	Time  0.019 ( 1.295)	Data  0.000 ( 1.274)	Loss 2.2718e-01 (6.2064e-01)	Acc   1.00 (  0.66)	AUC 0.6567	F1 0.7941	BACC 0.5000
+[2026-04-16 15:03:35] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [6][ 50/127]	Time  0.022 ( 1.049)	Data  0.000 ( 1.027)	Loss 8.4736e-01 (7.0015e-01)	Acc   0.50 (  0.61)	AUC 0.5952	F1 0.7561	BACC 0.5000
+[2026-04-16 15:03:35] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [6][ 60/127]	Time  0.019 ( 0.881)	Data  0.000 ( 0.860)	Loss 1.9391e-01 (6.6770e-01)	Acc   1.00 (  0.64)	AUC 0.6069	F1 0.7800	BACC 0.5000
+[2026-04-16 15:03:36] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [6][ 70/127]	Time  0.021 ( 0.766)	Data  0.000 ( 0.744)	Loss 9.2702e-01 (6.5795e-01)	Acc   0.50 (  0.65)	AUC 0.6159	F1 0.7863	BACC 0.5000
+[2026-04-16 15:03:36] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [6][ 80/127]	Time  0.023 ( 0.675)	Data  0.000 ( 0.653)	Loss 2.1607e-01 (6.1844e-01)	Acc   1.00 (  0.68)	AUC 0.6404	F1 0.8088	BACC 0.5000
+[2026-04-16 15:03:36] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [6][ 90/127]	Time  0.023 ( 0.603)	Data  0.000 ( 0.581)	Loss 1.8559e-01 (5.9537e-01)	Acc   1.00 (  0.70)	AUC 0.6507	F1 0.8220	BACC 0.5000
+[2026-04-16 15:03:36] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [6][100/127]	Time  0.017 ( 0.546)	Data  0.000 ( 0.524)	Loss 2.1761e-01 (5.6903e-01)	Acc   1.00 (  0.72)	AUC 0.6693	F1 0.8357	BACC 0.5000
+[2026-04-16 15:03:36] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [6][110/127]	Time  0.018 ( 0.498)	Data  0.000 ( 0.477)	Loss 2.1060e-01 (5.6099e-01)	Acc   1.00 (  0.73)	AUC 0.6717	F1 0.8407	BACC 0.5000
+[2026-04-16 15:03:37] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [6][120/127]	Time  0.018 ( 0.458)	Data  0.000 ( 0.437)	Loss 1.1353e+00 (5.5004e-01)	Acc   0.50 (  0.74)	AUC 0.6694	F1 0.8476	BACC 0.5000
+[2026-04-16 15:03:38] test INFO: [WSI_Clinical] Epoch 6 | AUC: 0.6651 | BACC: 0.5000 | F1: 0.8447
+[2026-04-16 15:03:38] train_WSI_Clinical INFO: ---------------------------------------------------------------------------------------------------------------------------
+[2026-04-16 15:03:55] train_WSI_Clinical INFO: ---------------------------------------------------------------------------------------------------------------------------
+[2026-04-16 15:04:37] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [7][  0/127]	Time 42.184 (42.184)	Data 42.094 (42.094)	Loss 1.0063e+00 (1.0063e+00)	Acc   0.50 (  0.50)	AUC 0.0000	F1 0.6667	BACC 0.5000
+[2026-04-16 15:04:38] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [7][ 10/127]	Time  0.065 ( 3.897)	Data  0.000 ( 3.827)	Loss 1.2303e+00 (7.4926e-01)	Acc   0.50 (  0.59)	AUC 0.6000	F1 0.7273	BACC 0.5500
+[2026-04-16 15:04:39] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [7][ 20/127]	Time  0.075 ( 2.074)	Data  0.000 ( 2.005)	Loss 2.5341e-01 (6.5533e-01)	Acc   1.00 (  0.67)	AUC 0.4615	F1 0.7941	BACC 0.5040
+[2026-04-16 15:04:40] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [7][ 30/127]	Time  0.078 ( 1.430)	Data  0.000 ( 1.358)	Loss 3.1623e-01 (5.8488e-01)	Acc   1.00 (  0.74)	AUC 0.4511	F1 0.8491	BACC 0.5121
+[2026-04-16 15:04:41] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [7][ 40/127]	Time  0.090 ( 1.106)	Data  0.000 ( 1.027)	Loss 1.1378e+00 (6.0031e-01)	Acc   0.50 (  0.73)	AUC 0.4536	F1 0.8429	BACC 0.5074
+[2026-04-16 15:04:42] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [7][ 50/127]	Time  0.176 ( 0.912)	Data  0.000 ( 0.826)	Loss 9.3342e-01 (5.9846e-01)	Acc   0.50 (  0.73)	AUC 0.5156	F1 0.8391	BACC 0.5052
+[2026-04-16 15:04:43] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [7][ 60/127]	Time  0.112 ( 0.779)	Data  0.000 ( 0.690)	Loss 3.4837e-01 (5.7020e-01)	Acc   1.00 (  0.75)	AUC 0.5402	F1 0.8531	BACC 0.5058
+[2026-04-16 15:04:44] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [7][ 70/127]	Time  0.099 ( 0.685)	Data  0.002 ( 0.593)	Loss 4.4426e-01 (5.8785e-01)	Acc   1.00 (  0.73)	AUC 0.5308	F1 0.8443	BACC 0.5040
+[2026-04-16 15:04:45] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [7][ 80/127]	Time  0.120 ( 0.615)	Data  0.000 ( 0.520)	Loss 8.2092e-01 (5.8353e-01)	Acc   0.50 (  0.73)	AUC 0.5519	F1 0.8448	BACC 0.5149
+[2026-04-16 15:04:46] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [7][ 90/127]	Time  0.105 ( 0.558)	Data  0.000 ( 0.463)	Loss 1.0090e+00 (5.8799e-01)	Acc   0.00 (  0.72)	AUC 0.5673	F1 0.8350	BACC 0.5086
+[2026-04-16 15:04:47] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [7][100/127]	Time  0.092 ( 0.513)	Data  0.000 ( 0.417)	Loss 7.3154e-01 (6.0122e-01)	Acc   0.50 (  0.71)	AUC 0.5572	F1 0.8270	BACC 0.5038
+[2026-04-16 15:04:48] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [7][110/127]	Time  0.096 ( 0.476)	Data  0.000 ( 0.380)	Loss 7.0697e-01 (5.9881e-01)	Acc   0.50 (  0.72)	AUC 0.5475	F1 0.8329	BACC 0.5040
+[2026-04-16 15:04:49] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [7][120/127]	Time  0.143 ( 0.446)	Data  0.000 ( 0.348)	Loss 3.0658e-01 (5.9861e-01)	Acc   1.00 (  0.72)	AUC 0.5390	F1 0.8350	BACC 0.5038
+[2026-04-16 15:04:52] train_WSI_Clinical INFO: ---------------------------------------------------------------------------------------------------------------------------
+[2026-04-16 15:05:34] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [7][  0/127]	Time 42.239 (42.239)	Data 42.200 (42.200)	Loss 4.3555e-01 (4.3555e-01)	Acc   1.00 (  1.00)	AUC 0.0000	F1 1.0000	BACC 1.0000
+[2026-04-16 15:05:34] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [7][ 10/127]	Time  0.024 ( 3.865)	Data  0.000 ( 3.837)	Loss 5.6076e-01 (6.4397e-01)	Acc   1.00 (  0.64)	AUC 0.5804	F1 0.7778	BACC 0.5000
+[2026-04-16 15:05:35] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [7][ 20/127]	Time  0.025 ( 2.036)	Data  0.000 ( 2.010)	Loss 4.5237e-01 (6.5323e-01)	Acc   1.00 (  0.60)	AUC 0.6518	F1 0.7463	BACC 0.5000
+[2026-04-16 15:05:35] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [7][ 30/127]	Time  0.025 ( 1.387)	Data  0.000 ( 1.362)	Loss 2.2260e-01 (6.7347e-01)	Acc   1.00 (  0.60)	AUC 0.6173	F1 0.7475	BACC 0.5000
+[2026-04-16 15:05:35] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [7][ 40/127]	Time  0.028 ( 1.055)	Data  0.000 ( 1.030)	Loss 2.4479e-01 (6.1612e-01)	Acc   1.00 (  0.66)	AUC 0.6601	F1 0.7941	BACC 0.5000
+[2026-04-16 15:05:35] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [7][ 50/127]	Time  0.025 ( 0.854)	Data  0.000 ( 0.828)	Loss 8.1788e-01 (6.8976e-01)	Acc   0.50 (  0.61)	AUC 0.5964	F1 0.7561	BACC 0.5000
+[2026-04-16 15:05:36] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [7][ 60/127]	Time  0.021 ( 0.718)	Data  0.000 ( 0.692)	Loss 2.1868e-01 (6.5942e-01)	Acc   1.00 (  0.64)	AUC 0.6061	F1 0.7800	BACC 0.5000
+[2026-04-16 15:05:36] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [7][ 70/127]	Time  0.023 ( 0.620)	Data  0.000 ( 0.595)	Loss 9.2096e-01 (6.4927e-01)	Acc   0.50 (  0.65)	AUC 0.6178	F1 0.7863	BACC 0.5000
+[2026-04-16 15:05:36] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [7][ 80/127]	Time  0.025 ( 0.546)	Data  0.000 ( 0.521)	Loss 2.4240e-01 (6.1148e-01)	Acc   1.00 (  0.68)	AUC 0.6423	F1 0.8088	BACC 0.5000
+[2026-04-16 15:05:36] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [7][ 90/127]	Time  0.027 ( 0.489)	Data  0.000 ( 0.464)	Loss 2.0586e-01 (5.8999e-01)	Acc   1.00 (  0.70)	AUC 0.6527	F1 0.8220	BACC 0.5000
+[2026-04-16 15:05:37] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [7][100/127]	Time  0.018 ( 0.443)	Data  0.000 ( 0.418)	Loss 2.2146e-01 (5.6454e-01)	Acc   1.00 (  0.72)	AUC 0.6724	F1 0.8357	BACC 0.5000
+[2026-04-16 15:05:37] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [7][110/127]	Time  0.022 ( 0.405)	Data  0.000 ( 0.380)	Loss 2.2742e-01 (5.5648e-01)	Acc   1.00 (  0.73)	AUC 0.6758	F1 0.8407	BACC 0.5000
+[2026-04-16 15:05:37] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [7][120/127]	Time  0.031 ( 0.374)	Data  0.000 ( 0.349)	Loss 1.1101e+00 (5.4553e-01)	Acc   0.50 (  0.74)	AUC 0.6798	F1 0.8476	BACC 0.5000
+[2026-04-16 15:05:38] test INFO: [WSI_Clinical] Epoch 7 | AUC: 0.6759 | BACC: 0.5000 | F1: 0.8447
+[2026-04-16 15:05:38] train_WSI_Clinical INFO: ---------------------------------------------------------------------------------------------------------------------------
+[2026-04-16 15:05:51] train_WSI_Clinical INFO: ---------------------------------------------------------------------------------------------------------------------------
+[2026-04-16 15:06:33] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [8][  0/127]	Time 42.168 (42.168)	Data 42.072 (42.072)	Loss 1.7594e-01 (1.7594e-01)	Acc   1.00 (  1.00)	AUC 0.0000	F1 1.0000	BACC 1.0000
+[2026-04-16 15:06:34] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [8][ 10/127]	Time  0.069 ( 3.898)	Data  0.000 ( 3.825)	Loss 9.2001e-01 (5.0152e-01)	Acc   0.50 (  0.68)	AUC 0.8646	F1 0.8108	BACC 0.4688
+[2026-04-16 15:06:34] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [8][ 20/127]	Time  0.065 ( 2.073)	Data  0.000 ( 2.004)	Loss 2.3807e-01 (4.9484e-01)	Acc   1.00 (  0.71)	AUC 0.8035	F1 0.8333	BACC 0.4839
+[2026-04-16 15:06:35] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [8][ 30/127]	Time  0.065 ( 1.425)	Data  0.000 ( 1.357)	Loss 9.5392e-01 (5.4783e-01)	Acc   0.50 (  0.69)	AUC 0.7386	F1 0.8190	BACC 0.4886
+[2026-04-16 15:06:36] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [8][ 40/127]	Time  0.073 ( 1.095)	Data  0.000 ( 1.026)	Loss 1.0322e+00 (5.7822e-01)	Acc   0.50 (  0.67)	AUC 0.6703	F1 0.8029	BACC 0.4741
+[2026-04-16 15:06:36] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [8][ 50/127]	Time  0.076 ( 0.894)	Data  0.000 ( 0.825)	Loss 4.4431e-01 (5.8791e-01)	Acc   1.00 (  0.69)	AUC 0.6329	F1 0.8118	BACC 0.4958
+[2026-04-16 15:06:37] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [8][ 60/127]	Time  0.064 ( 0.760)	Data  0.000 ( 0.690)	Loss 6.3778e-01 (5.8984e-01)	Acc   1.00 (  0.70)	AUC 0.6079	F1 0.8195	BACC 0.4970
+[2026-04-16 15:06:38] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [8][ 70/127]	Time  0.065 ( 0.661)	Data  0.000 ( 0.593)	Loss 6.1796e-01 (5.8526e-01)	Acc   0.50 (  0.70)	AUC 0.6172	F1 0.8250	BACC 0.4978
+[2026-04-16 15:06:38] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [8][ 80/127]	Time  0.066 ( 0.588)	Data  0.000 ( 0.520)	Loss 2.3919e-01 (5.8145e-01)	Acc   1.00 (  0.72)	AUC 0.5998	F1 0.8333	BACC 0.4987
+[2026-04-16 15:06:39] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [8][ 90/127]	Time  0.084 ( 0.531)	Data  0.000 ( 0.463)	Loss 2.5241e-01 (5.7829e-01)	Acc   1.00 (  0.71)	AUC 0.6220	F1 0.8323	BACC 0.4986
+[2026-04-16 15:06:40] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [8][100/127]	Time  0.071 ( 0.485)	Data  0.000 ( 0.417)	Loss 1.8073e+00 (5.7634e-01)	Acc   0.00 (  0.72)	AUC 0.6120	F1 0.8382	BACC 0.4991
+[2026-04-16 15:06:40] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [8][110/127]	Time  0.065 ( 0.448)	Data  0.000 ( 0.379)	Loss 1.4424e+00 (5.9484e-01)	Acc   0.00 (  0.72)	AUC 0.5808	F1 0.8338	BACC 0.4989
+[2026-04-16 15:06:41] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [8][120/127]	Time  0.061 ( 0.416)	Data  0.000 ( 0.348)	Loss 8.5042e-01 (5.9462e-01)	Acc   0.00 (  0.71)	AUC 0.5730	F1 0.8329	BACC 0.4989
+[2026-04-16 15:06:43] train_WSI_Clinical INFO: ---------------------------------------------------------------------------------------------------------------------------
+[2026-04-16 15:07:24] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [8][  0/127]	Time 41.700 (41.700)	Data 41.658 (41.658)	Loss 4.3386e-01 (4.3386e-01)	Acc   1.00 (  1.00)	AUC 0.0000	F1 1.0000	BACC 1.0000
+[2026-04-16 15:07:25] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [8][ 10/127]	Time  0.027 ( 3.817)	Data  0.000 ( 3.789)	Loss 5.6473e-01 (6.3573e-01)	Acc   1.00 (  0.64)	AUC 0.6429	F1 0.7778	BACC 0.5000
+[2026-04-16 15:07:25] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [8][ 20/127]	Time  0.021 ( 2.011)	Data  0.000 ( 1.985)	Loss 4.5825e-01 (6.4646e-01)	Acc   1.00 (  0.60)	AUC 0.6800	F1 0.7463	BACC 0.5000
+[2026-04-16 15:07:25] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [8][ 30/127]	Time  0.022 ( 1.369)	Data  0.000 ( 1.345)	Loss 2.7006e-01 (6.6872e-01)	Acc   1.00 (  0.60)	AUC 0.6346	F1 0.7475	BACC 0.5000
+[2026-04-16 15:07:25] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [8][ 40/127]	Time  0.023 ( 1.041)	Data  0.000 ( 1.017)	Loss 2.6032e-01 (6.1305e-01)	Acc   1.00 (  0.66)	AUC 0.6653	F1 0.7941	BACC 0.5000
+[2026-04-16 15:07:25] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [8][ 50/127]	Time  0.027 ( 0.842)	Data  0.000 ( 0.817)	Loss 8.1553e-01 (6.8088e-01)	Acc   0.50 (  0.61)	AUC 0.5907	F1 0.7561	BACC 0.5000
+[2026-04-16 15:07:26] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [8][ 60/127]	Time  0.030 ( 0.708)	Data  0.000 ( 0.683)	Loss 2.5724e-01 (6.5293e-01)	Acc   1.00 (  0.64)	AUC 0.5970	F1 0.7800	BACC 0.5000
+[2026-04-16 15:07:26] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [8][ 70/127]	Time  0.023 ( 0.612)	Data  0.000 ( 0.587)	Loss 9.1590e-01 (6.4346e-01)	Acc   0.50 (  0.65)	AUC 0.6070	F1 0.7863	BACC 0.5000
+[2026-04-16 15:07:26] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [8][ 80/127]	Time  0.021 ( 0.539)	Data  0.000 ( 0.515)	Loss 2.9316e-01 (6.0832e-01)	Acc   1.00 (  0.68)	AUC 0.6308	F1 0.8088	BACC 0.5000
+[2026-04-16 15:07:26] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [8][ 90/127]	Time  0.026 ( 0.483)	Data  0.000 ( 0.458)	Loss 2.4728e-01 (5.8914e-01)	Acc   1.00 (  0.70)	AUC 0.6377	F1 0.8220	BACC 0.5000
+[2026-04-16 15:07:27] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [8][100/127]	Time  0.022 ( 0.437)	Data  0.000 ( 0.413)	Loss 2.2490e-01 (5.6525e-01)	Acc   1.00 (  0.72)	AUC 0.6567	F1 0.8357	BACC 0.5000
+[2026-04-16 15:07:27] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [8][110/127]	Time  0.018 ( 0.400)	Data  0.000 ( 0.376)	Loss 2.5980e-01 (5.5653e-01)	Acc   1.00 (  0.73)	AUC 0.6660	F1 0.8407	BACC 0.5000
+[2026-04-16 15:07:27] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [8][120/127]	Time  0.018 ( 0.369)	Data  0.000 ( 0.345)	Loss 1.0216e+00 (5.4448e-01)	Acc   0.50 (  0.74)	AUC 0.6722	F1 0.8476	BACC 0.5000
+[2026-04-16 15:07:28] test INFO: [WSI_Clinical] Epoch 8 | AUC: 0.6655 | BACC: 0.5000 | F1: 0.8447
+[2026-04-16 15:07:28] train_WSI_Clinical INFO: ---------------------------------------------------------------------------------------------------------------------------
+[2026-04-16 15:07:35] train_WSI_Clinical INFO: ---------------------------------------------------------------------------------------------------------------------------
+[2026-04-16 15:08:17] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [9][  0/127]	Time 42.816 (42.816)	Data 42.714 (42.714)	Loss 3.2955e-01 (3.2955e-01)	Acc   1.00 (  1.00)	AUC 0.0000	F1 1.0000	BACC 1.0000
+[2026-04-16 15:08:18] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [9][ 10/127]	Time  0.062 ( 3.947)	Data  0.000 ( 3.883)	Loss 9.0686e-01 (5.7990e-01)	Acc   0.50 (  0.73)	AUC 0.7500	F1 0.8421	BACC 0.5000
+[2026-04-16 15:08:19] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [9][ 20/127]	Time  0.073 ( 2.097)	Data  0.000 ( 2.034)	Loss 7.7988e-01 (6.1386e-01)	Acc   0.50 (  0.74)	AUC 0.6505	F1 0.8358	BACC 0.6071
+[2026-04-16 15:08:19] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [9][ 30/127]	Time  0.066 ( 1.442)	Data  0.000 ( 1.378)	Loss 3.0739e-01 (5.8927e-01)	Acc   1.00 (  0.76)	AUC 0.6073	F1 0.8544	BACC 0.5833
+[2026-04-16 15:08:20] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [9][ 40/127]	Time  0.071 ( 1.108)	Data  0.000 ( 1.042)	Loss 8.5247e-01 (5.6342e-01)	Acc   0.50 (  0.76)	AUC 0.6485	F1 0.8551	BACC 0.5652
+[2026-04-16 15:08:21] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [9][ 50/127]	Time  0.072 ( 0.904)	Data  0.000 ( 0.838)	Loss 7.8203e-01 (5.6673e-01)	Acc   0.50 (  0.75)	AUC 0.6313	F1 0.8555	BACC 0.5536
+[2026-04-16 15:08:21] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [9][ 60/127]	Time  0.071 ( 0.767)	Data  0.000 ( 0.701)	Loss 1.8351e-01 (5.5239e-01)	Acc   1.00 (  0.77)	AUC 0.6118	F1 0.8667	BACC 0.5484
+[2026-04-16 15:08:22] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [9][ 70/127]	Time  0.066 ( 0.669)	Data  0.000 ( 0.602)	Loss 2.2653e-01 (5.5132e-01)	Acc   1.00 (  0.77)	AUC 0.6153	F1 0.8653	BACC 0.5417
+[2026-04-16 15:08:23] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [9][ 80/127]	Time  0.071 ( 0.595)	Data  0.000 ( 0.528)	Loss 8.1070e-01 (5.7336e-01)	Acc   0.50 (  0.75)	AUC 0.5706	F1 0.8561	BACC 0.5349
+[2026-04-16 15:08:23] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [9][ 90/127]	Time  0.072 ( 0.537)	Data  0.002 ( 0.470)	Loss 1.8164e-01 (5.6030e-01)	Acc   1.00 (  0.76)	AUC 0.5885	F1 0.8590	BACC 0.5417
+[2026-04-16 15:08:24] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [9][100/127]	Time  0.064 ( 0.490)	Data  0.000 ( 0.423)	Loss 2.7703e-01 (5.5948e-01)	Acc   1.00 (  0.76)	AUC 0.5958	F1 0.8588	BACC 0.5377
+[2026-04-16 15:08:25] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [9][110/127]	Time  0.057 ( 0.451)	Data  0.000 ( 0.385)	Loss 7.9748e-01 (5.7069e-01)	Acc   0.50 (  0.75)	AUC 0.5795	F1 0.8526	BACC 0.5308
+[2026-04-16 15:08:25] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [9][120/127]	Time  0.059 ( 0.419)	Data  0.000 ( 0.353)	Loss 9.3425e-01 (5.7315e-01)	Acc   0.50 (  0.74)	AUC 0.5871	F1 0.8502	BACC 0.5279
+[2026-04-16 15:08:27] train_WSI_Clinical INFO: ---------------------------------------------------------------------------------------------------------------------------
+[2026-04-16 15:09:09] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [9][  0/127]	Time 42.123 (42.123)	Data 42.080 (42.080)	Loss 4.5274e-01 (4.5274e-01)	Acc   1.00 (  1.00)	AUC 0.0000	F1 1.0000	BACC 1.0000
+[2026-04-16 15:09:09] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [9][ 10/127]	Time  0.023 ( 3.850)	Data  0.000 ( 3.826)	Loss 5.8455e-01 (6.3446e-01)	Acc   1.00 (  0.64)	AUC 0.6607	F1 0.7778	BACC 0.5000
+[2026-04-16 15:09:09] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [9][ 20/127]	Time  0.024 ( 2.029)	Data  0.000 ( 2.004)	Loss 4.7984e-01 (6.4296e-01)	Acc   1.00 (  0.60)	AUC 0.6941	F1 0.7463	BACC 0.5000
+[2026-04-16 15:09:10] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [9][ 30/127]	Time  0.020 ( 1.381)	Data  0.000 ( 1.358)	Loss 3.6770e-01 (6.6765e-01)	Acc   1.00 (  0.61)	AUC 0.6443	F1 0.7551	BACC 0.5200
+[2026-04-16 15:09:10] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [9][ 40/127]	Time  0.023 ( 1.050)	Data  0.000 ( 1.027)	Loss 3.1031e-01 (6.1533e-01)	Acc   1.00 (  0.67)	AUC 0.6753	F1 0.8000	BACC 0.5179
+[2026-04-16 15:09:10] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [9][ 50/127]	Time  0.024 ( 0.848)	Data  0.000 ( 0.825)	Loss 7.6999e-01 (6.6931e-01)	Acc   0.50 (  0.62)	AUC 0.6016	F1 0.7607	BACC 0.5125
+[2026-04-16 15:09:10] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [9][ 60/127]	Time  0.027 ( 0.713)	Data  0.000 ( 0.690)	Loss 3.4630e-01 (6.4568e-01)	Acc   1.00 (  0.65)	AUC 0.5967	F1 0.7839	BACC 0.5114
+[2026-04-16 15:09:11] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [9][ 70/127]	Time  0.018 ( 0.616)	Data  0.000 ( 0.593)	Loss 9.1033e-01 (6.3636e-01)	Acc   0.50 (  0.65)	AUC 0.5985	F1 0.7897	BACC 0.5100
+[2026-04-16 15:09:11] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [9][ 80/127]	Time  0.024 ( 0.543)	Data  0.000 ( 0.520)	Loss 3.7927e-01 (6.0532e-01)	Acc   1.00 (  0.69)	AUC 0.6201	F1 0.8118	BACC 0.5096
+[2026-04-16 15:09:11] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [9][ 90/127]	Time  0.020 ( 0.485)	Data  0.000 ( 0.463)	Loss 3.2702e-01 (5.9037e-01)	Acc   1.00 (  0.70)	AUC 0.6190	F1 0.8247	BACC 0.5091
+[2026-04-16 15:09:11] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [9][100/127]	Time  0.017 ( 0.439)	Data  0.000 ( 0.417)	Loss 2.2902e-01 (5.6872e-01)	Acc   1.00 (  0.72)	AUC 0.6364	F1 0.8382	BACC 0.5088
+[2026-04-16 15:09:11] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [9][110/127]	Time  0.020 ( 0.401)	Data  0.000 ( 0.379)	Loss 3.1847e-01 (5.6048e-01)	Acc   1.00 (  0.73)	AUC 0.6433	F1 0.8429	BACC 0.5082
+[2026-04-16 15:09:12] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [9][120/127]	Time  0.019 ( 0.370)	Data  0.000 ( 0.348)	Loss 9.1634e-01 (5.4838e-01)	Acc   0.50 (  0.74)	AUC 0.6564	F1 0.8496	BACC 0.5078
+[2026-04-16 15:09:13] test INFO: [WSI_Clinical] Epoch 9 | AUC: 0.6457 | BACC: 0.5074 | F1: 0.8467
+[2026-04-16 15:09:13] train_WSI_Clinical INFO: ---------------------------------------------------------------------------------------------------------------------------
+[2026-04-16 15:09:17] train_WSI_Clinical INFO: ---------------------------------------------------------------------------------------------------------------------------
+[2026-04-16 15:09:58] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [10][  0/127]	Time 40.817 (40.817)	Data 40.728 (40.728)	Loss 8.7458e-01 (8.7458e-01)	Acc   0.50 (  0.50)	AUC 0.0000	F1 0.6667	BACC 0.5000
+[2026-04-16 15:09:59] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [10][ 10/127]	Time  0.069 ( 3.773)	Data  0.000 ( 3.703)	Loss 3.0616e-01 (5.0898e-01)	Acc   1.00 (  0.77)	AUC 0.7765	F1 0.8718	BACC 0.5000
+[2026-04-16 15:10:00] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [10][ 20/127]	Time  0.062 ( 2.007)	Data  0.000 ( 1.940)	Loss 1.1303e+00 (5.1824e-01)	Acc   0.50 (  0.79)	AUC 0.6869	F1 0.8800	BACC 0.5000
+[2026-04-16 15:10:00] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [10][ 30/127]	Time  0.065 ( 1.381)	Data  0.000 ( 1.314)	Loss 5.9663e-01 (5.3010e-01)	Acc   0.50 (  0.76)	AUC 0.6766	F1 0.8624	BACC 0.5000
+[2026-04-16 15:10:01] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [10][ 40/127]	Time  0.074 ( 1.063)	Data  0.000 ( 0.994)	Loss 6.9854e-01 (5.2935e-01)	Acc   0.50 (  0.76)	AUC 0.6935	F1 0.8611	BACC 0.5000
+[2026-04-16 15:10:02] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [10][ 50/127]	Time  0.067 ( 0.869)	Data  0.000 ( 0.799)	Loss 9.3910e-01 (5.6060e-01)	Acc   0.50 (  0.74)	AUC 0.6786	F1 0.8475	BACC 0.4934
+[2026-04-16 15:10:02] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [10][ 60/127]	Time  0.083 ( 0.738)	Data  0.000 ( 0.668)	Loss 2.2636e-01 (5.5903e-01)	Acc   1.00 (  0.74)	AUC 0.6625	F1 0.8491	BACC 0.4945
+[2026-04-16 15:10:03] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [10][ 70/127]	Time  0.069 ( 0.644)	Data  0.000 ( 0.574)	Loss 2.6353e-01 (5.3567e-01)	Acc   1.00 (  0.75)	AUC 0.6890	F1 0.8594	BACC 0.4954
+[2026-04-16 15:10:04] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [10][ 80/127]	Time  0.062 ( 0.573)	Data  0.000 ( 0.503)	Loss 2.4129e-01 (5.4720e-01)	Acc   1.00 (  0.75)	AUC 0.6302	F1 0.8592	BACC 0.4959
+[2026-04-16 15:10:05] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [10][ 90/127]	Time  0.072 ( 0.518)	Data  0.000 ( 0.448)	Loss 9.4864e-01 (5.7540e-01)	Acc   0.00 (  0.72)	AUC 0.6196	F1 0.8371	BACC 0.4925
+[2026-04-16 15:10:05] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [10][100/127]	Time  0.068 ( 0.474)	Data  0.000 ( 0.403)	Loss 7.5943e-01 (5.7547e-01)	Acc   0.50 (  0.72)	AUC 0.6140	F1 0.8391	BACC 0.4932
+[2026-04-16 15:10:06] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [10][110/127]	Time  0.060 ( 0.437)	Data  0.000 ( 0.367)	Loss 3.6325e-01 (5.7285e-01)	Acc   1.00 (  0.72)	AUC 0.6394	F1 0.8346	BACC 0.4938
+[2026-04-16 15:10:06] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [10][120/127]	Time  0.055 ( 0.406)	Data  0.000 ( 0.337)	Loss 1.0945e+00 (5.7303e-01)	Acc   0.50 (  0.72)	AUC 0.6389	F1 0.8365	BACC 0.4943
+[2026-04-16 15:10:08] train_WSI_Clinical INFO: ---------------------------------------------------------------------------------------------------------------------------
+[2026-04-16 15:10:49] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [10][  0/127]	Time 40.915 (40.915)	Data 40.864 (40.864)	Loss 4.0982e-01 (4.0982e-01)	Acc   1.00 (  1.00)	AUC 0.0000	F1 1.0000	BACC 1.0000
+[2026-04-16 15:10:49] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [10][ 10/127]	Time  0.026 ( 3.742)	Data  0.001 ( 3.715)	Loss 5.4345e-01 (6.3011e-01)	Acc   1.00 (  0.64)	AUC 0.6875	F1 0.7778	BACC 0.5000
+[2026-04-16 15:10:49] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [10][ 20/127]	Time  0.023 ( 1.972)	Data  0.000 ( 1.946)	Loss 4.4007e-01 (6.4167e-01)	Acc   1.00 (  0.60)	AUC 0.7200	F1 0.7463	BACC 0.5000
+[2026-04-16 15:10:50] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [10][ 30/127]	Time  0.025 ( 1.344)	Data  0.000 ( 1.319)	Loss 3.4758e-01 (6.7523e-01)	Acc   1.00 (  0.60)	AUC 0.6443	F1 0.7475	BACC 0.5000
+[2026-04-16 15:10:50] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [10][ 40/127]	Time  0.024 ( 1.022)	Data  0.000 ( 0.997)	Loss 2.6837e-01 (6.1767e-01)	Acc   1.00 (  0.66)	AUC 0.6753	F1 0.7941	BACC 0.5000
+[2026-04-16 15:10:50] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [10][ 50/127]	Time  0.022 ( 0.826)	Data  0.000 ( 0.802)	Loss 8.1124e-01 (6.8008e-01)	Acc   0.50 (  0.61)	AUC 0.5984	F1 0.7561	BACC 0.5000
+[2026-04-16 15:10:50] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [10][ 60/127]	Time  0.022 ( 0.694)	Data  0.000 ( 0.670)	Loss 3.1993e-01 (6.5450e-01)	Acc   1.00 (  0.64)	AUC 0.5921	F1 0.7800	BACC 0.5000
+[2026-04-16 15:10:51] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [10][ 70/127]	Time  0.020 ( 0.600)	Data  0.000 ( 0.576)	Loss 9.7068e-01 (6.4539e-01)	Acc   0.50 (  0.65)	AUC 0.5909	F1 0.7863	BACC 0.5000
+[2026-04-16 15:10:51] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [10][ 80/127]	Time  0.023 ( 0.528)	Data  0.000 ( 0.505)	Loss 3.5050e-01 (6.1049e-01)	Acc   1.00 (  0.68)	AUC 0.6110	F1 0.8088	BACC 0.5000
+[2026-04-16 15:10:51] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [10][ 90/127]	Time  0.022 ( 0.472)	Data  0.000 ( 0.449)	Loss 3.0081e-01 (5.9427e-01)	Acc   1.00 (  0.70)	AUC 0.6069	F1 0.8220	BACC 0.5000
+[2026-04-16 15:10:51] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [10][100/127]	Time  0.017 ( 0.428)	Data  0.000 ( 0.405)	Loss 1.9285e-01 (5.7042e-01)	Acc   1.00 (  0.72)	AUC 0.6224	F1 0.8357	BACC 0.5000
+[2026-04-16 15:10:51] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [10][110/127]	Time  0.018 ( 0.391)	Data  0.000 ( 0.368)	Loss 2.8211e-01 (5.6113e-01)	Acc   1.00 (  0.73)	AUC 0.6316	F1 0.8407	BACC 0.5000
+[2026-04-16 15:10:52] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [10][120/127]	Time  0.018 ( 0.360)	Data  0.000 ( 0.338)	Loss 9.4410e-01 (5.4717e-01)	Acc   0.50 (  0.74)	AUC 0.6469	F1 0.8476	BACC 0.5000
+[2026-04-16 15:10:53] test INFO: [WSI_Clinical] Epoch 10 | AUC: 0.6361 | BACC: 0.5000 | F1: 0.8447
+[2026-04-16 15:10:53] train_WSI_Clinical INFO: ---------------------------------------------------------------------------------------------------------------------------
+[2026-04-16 15:10:57] train_WSI_Clinical INFO: ---------------------------------------------------------------------------------------------------------------------------
+[2026-04-16 15:11:39] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [11][  0/127]	Time 41.914 (41.914)	Data 41.819 (41.819)	Loss 7.7768e-01 (7.7768e-01)	Acc   0.50 (  0.50)	AUC 1.0000	F1 0.6667	BACC 0.5000
+[2026-04-16 15:11:39] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [11][ 10/127]	Time  0.061 ( 3.872)	Data  0.000 ( 3.802)	Loss 2.0755e-01 (6.0996e-01)	Acc   1.00 (  0.64)	AUC 0.6875	F1 0.7778	BACC 0.5000
+[2026-04-16 15:11:40] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [11][ 20/127]	Time  0.069 ( 2.060)	Data  0.000 ( 1.992)	Loss 7.8771e-01 (6.8638e-01)	Acc   0.50 (  0.60)	AUC 0.5553	F1 0.7385	BACC 0.5094
+[2026-04-16 15:11:41] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [11][ 30/127]	Time  0.065 ( 1.417)	Data  0.000 ( 1.349)	Loss 4.2264e-01 (6.7958e-01)	Acc   1.00 (  0.60)	AUC 0.5919	F1 0.7253	BACC 0.5353
+[2026-04-16 15:11:42] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [11][ 40/127]	Time  0.066 ( 1.088)	Data  0.000 ( 1.020)	Loss 1.1536e+00 (6.5826e-01)	Acc   0.50 (  0.63)	AUC 0.5686	F1 0.7619	BACC 0.5282
+[2026-04-16 15:11:42] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [11][ 50/127]	Time  0.072 ( 0.888)	Data  0.000 ( 0.820)	Loss 7.8429e-01 (6.5016e-01)	Acc   0.50 (  0.65)	AUC 0.5775	F1 0.7722	BACC 0.5368
+[2026-04-16 15:11:43] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [11][ 60/127]	Time  0.064 ( 0.753)	Data  0.000 ( 0.686)	Loss 3.2765e-01 (6.4369e-01)	Acc   1.00 (  0.65)	AUC 0.5823	F1 0.7749	BACC 0.5265
+[2026-04-16 15:11:44] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [11][ 70/127]	Time  0.065 ( 0.657)	Data  0.000 ( 0.589)	Loss 6.7467e-01 (6.1940e-01)	Acc   0.50 (  0.66)	AUC 0.6060	F1 0.7876	BACC 0.5216
+[2026-04-16 15:11:44] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [11][ 80/127]	Time  0.072 ( 0.584)	Data  0.000 ( 0.517)	Loss 1.0955e+00 (5.9458e-01)	Acc   0.50 (  0.69)	AUC 0.6254	F1 0.8061	BACC 0.5232
+[2026-04-16 15:11:45] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [11][ 90/127]	Time  0.067 ( 0.528)	Data  0.000 ( 0.460)	Loss 8.1999e-01 (5.9903e-01)	Acc   0.50 (  0.69)	AUC 0.6215	F1 0.8081	BACC 0.5208
+[2026-04-16 15:11:46] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [11][100/127]	Time  0.069 ( 0.482)	Data  0.000 ( 0.414)	Loss 9.9932e-01 (5.9702e-01)	Acc   0.00 (  0.69)	AUC 0.6219	F1 0.8097	BACC 0.5189
+[2026-04-16 15:11:46] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [11][110/127]	Time  0.056 ( 0.444)	Data  0.000 ( 0.377)	Loss 4.2546e-01 (5.8182e-01)	Acc   1.00 (  0.70)	AUC 0.6293	F1 0.8207	BACC 0.5194
+[2026-04-16 15:11:47] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [11][120/127]	Time  0.057 ( 0.412)	Data  0.000 ( 0.346)	Loss 9.8510e-01 (5.6470e-01)	Acc   0.50 (  0.72)	AUC 0.6385	F1 0.8325	BACC 0.5202
+[2026-04-16 15:11:48] train_WSI_Clinical INFO: ---------------------------------------------------------------------------------------------------------------------------
+[2026-04-16 15:12:30] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [11][  0/127]	Time 41.647 (41.647)	Data 41.612 (41.612)	Loss 2.4104e-01 (2.4104e-01)	Acc   1.00 (  1.00)	AUC 0.0000	F1 1.0000	BACC 1.0000
+[2026-04-16 15:12:30] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [11][ 10/127]	Time  0.027 ( 3.810)	Data  0.000 ( 3.783)	Loss 3.2567e-01 (6.6012e-01)	Acc   1.00 (  0.64)	AUC 0.7321	F1 0.7778	BACC 0.5000
+[2026-04-16 15:12:30] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [11][ 20/127]	Time  0.024 ( 2.008)	Data  0.000 ( 1.982)	Loss 2.6620e-01 (6.9638e-01)	Acc   1.00 (  0.60)	AUC 0.7600	F1 0.7463	BACC 0.5000
+[2026-04-16 15:12:31] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [11][ 30/127]	Time  0.025 ( 1.369)	Data  0.000 ( 1.343)	Loss 1.5813e-01 (7.4253e-01)	Acc   1.00 (  0.60)	AUC 0.6724	F1 0.7475	BACC 0.5000
+[2026-04-16 15:12:31] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [11][ 40/127]	Time  0.023 ( 1.041)	Data  0.000 ( 1.015)	Loss 1.4701e-01 (6.6353e-01)	Acc   1.00 (  0.66)	AUC 0.6878	F1 0.7941	BACC 0.5000
+[2026-04-16 15:12:31] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [11][ 50/127]	Time  0.028 ( 0.842)	Data  0.000 ( 0.816)	Loss 1.0178e+00 (7.6974e-01)	Acc   0.50 (  0.61)	AUC 0.6069	F1 0.7561	BACC 0.5000
+[2026-04-16 15:12:31] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [11][ 60/127]	Time  0.024 ( 0.708)	Data  0.000 ( 0.682)	Loss 1.4893e-01 (7.2951e-01)	Acc   1.00 (  0.64)	AUC 0.6066	F1 0.7800	BACC 0.5000
+[2026-04-16 15:12:32] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [11][ 70/127]	Time  0.026 ( 0.611)	Data  0.000 ( 0.586)	Loss 1.1543e+00 (7.2074e-01)	Acc   0.50 (  0.65)	AUC 0.6148	F1 0.7863	BACC 0.5000
+[2026-04-16 15:12:32] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [11][ 80/127]	Time  0.027 ( 0.539)	Data  0.000 ( 0.514)	Loss 1.7339e-01 (6.7006e-01)	Acc   1.00 (  0.68)	AUC 0.6390	F1 0.8088	BACC 0.5000
+[2026-04-16 15:12:32] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [11][ 90/127]	Time  0.024 ( 0.482)	Data  0.000 ( 0.458)	Loss 1.4393e-01 (6.4221e-01)	Acc   1.00 (  0.70)	AUC 0.6428	F1 0.8220	BACC 0.5000
+[2026-04-16 15:12:32] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [11][100/127]	Time  0.025 ( 0.437)	Data  0.000 ( 0.412)	Loss 1.1991e-01 (6.0887e-01)	Acc   1.00 (  0.72)	AUC 0.6605	F1 0.8357	BACC 0.5000
+[2026-04-16 15:12:33] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [11][110/127]	Time  0.019 ( 0.400)	Data  0.000 ( 0.375)	Loss 1.5238e-01 (5.9712e-01)	Acc   1.00 (  0.73)	AUC 0.6733	F1 0.8407	BACC 0.5000
+[2026-04-16 15:12:33] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [11][120/127]	Time  0.019 ( 0.368)	Data  0.000 ( 0.344)	Loss 1.1965e+00 (5.7915e-01)	Acc   0.50 (  0.74)	AUC 0.6805	F1 0.8476	BACC 0.5000
+[2026-04-16 15:12:34] test INFO: [WSI_Clinical] Epoch 11 | AUC: 0.6739 | BACC: 0.5000 | F1: 0.8447
+[2026-04-16 15:12:34] train_WSI_Clinical INFO: ---------------------------------------------------------------------------------------------------------------------------
+[2026-04-16 15:12:40] train_WSI_Clinical INFO: ---------------------------------------------------------------------------------------------------------------------------
+[2026-04-16 15:13:22] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [12][  0/127]	Time 41.396 (41.396)	Data 41.293 (41.293)	Loss 1.6794e+00 (1.6794e+00)	Acc   0.00 (  0.00)	AUC 0.0000	F1 0.0000	BACC 0.0000
+[2026-04-16 15:13:22] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [12][ 10/127]	Time  0.052 ( 3.813)	Data  0.000 ( 3.754)	Loss 1.3254e+00 (7.2983e-01)	Acc   0.00 (  0.59)	AUC 0.5641	F1 0.7429	BACC 0.5000
+[2026-04-16 15:13:23] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [12][ 20/127]	Time  0.056 ( 2.024)	Data  0.000 ( 1.967)	Loss 1.0109e+00 (6.6709e-01)	Acc   0.50 (  0.64)	AUC 0.5827	F1 0.7826	BACC 0.5000
+[2026-04-16 15:13:23] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [12][ 30/127]	Time  0.057 ( 1.391)	Data  0.000 ( 1.332)	Loss 3.9657e-01 (6.1821e-01)	Acc   1.00 (  0.71)	AUC 0.5532	F1 0.8269	BACC 0.5263
+[2026-04-16 15:13:24] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [12][ 40/127]	Time  0.062 ( 1.067)	Data  0.000 ( 1.007)	Loss 1.6058e+00 (6.7099e-01)	Acc   0.00 (  0.68)	AUC 0.5104	F1 0.8088	BACC 0.5185
+[2026-04-16 15:13:25] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [12][ 50/127]	Time  0.068 ( 0.872)	Data  0.000 ( 0.810)	Loss 6.5956e-01 (6.2601e-01)	Acc   0.50 (  0.72)	AUC 0.5139	F1 0.8324	BACC 0.5167
+[2026-04-16 15:13:25] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [12][ 60/127]	Time  0.090 ( 0.740)	Data  0.001 ( 0.677)	Loss 2.0216e-01 (6.1626e-01)	Acc   1.00 (  0.71)	AUC 0.5258	F1 0.8309	BACC 0.5139
+[2026-04-16 15:13:26] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [12][ 70/127]	Time  0.064 ( 0.645)	Data  0.000 ( 0.582)	Loss 7.4843e-01 (6.3389e-01)	Acc   0.50 (  0.70)	AUC 0.5448	F1 0.8220	BACC 0.5333
+[2026-04-16 15:13:27] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [12][ 80/127]	Time  0.066 ( 0.573)	Data  0.000 ( 0.510)	Loss 2.6743e-01 (6.3172e-01)	Acc   1.00 (  0.70)	AUC 0.5650	F1 0.8182	BACC 0.5486
+[2026-04-16 15:13:27] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [12][ 90/127]	Time  0.064 ( 0.518)	Data  0.000 ( 0.454)	Loss 7.2813e-01 (6.1564e-01)	Acc   0.50 (  0.71)	AUC 0.5734	F1 0.8267	BACC 0.5456
+[2026-04-16 15:13:28] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [12][100/127]	Time  0.062 ( 0.473)	Data  0.000 ( 0.409)	Loss 2.2082e-01 (6.0076e-01)	Acc   1.00 (  0.73)	AUC 0.5810	F1 0.8358	BACC 0.5513
+[2026-04-16 15:13:29] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [12][110/127]	Time  0.059 ( 0.436)	Data  0.000 ( 0.372)	Loss 8.7717e-01 (5.9449e-01)	Acc   0.50 (  0.74)	AUC 0.5680	F1 0.8441	BACC 0.5493
+[2026-04-16 15:13:29] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [12][120/127]	Time  0.061 ( 0.406)	Data  0.000 ( 0.342)	Loss 4.2102e-01 (5.8447e-01)	Acc   1.00 (  0.74)	AUC 0.5800	F1 0.8480	BACC 0.5465
+[2026-04-16 15:13:31] train_WSI_Clinical INFO: ---------------------------------------------------------------------------------------------------------------------------
+[2026-04-16 15:14:12] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [12][  0/127]	Time 41.598 (41.598)	Data 41.552 (41.552)	Loss 2.8991e-01 (2.8991e-01)	Acc   1.00 (  1.00)	AUC 0.0000	F1 1.0000	BACC 1.0000
+[2026-04-16 15:14:13] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [12][ 10/127]	Time  0.028 ( 3.811)	Data  0.000 ( 3.778)	Loss 3.8882e-01 (6.3202e-01)	Acc   1.00 (  0.64)	AUC 0.7589	F1 0.7778	BACC 0.5000
+[2026-04-16 15:14:13] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [12][ 20/127]	Time  0.028 ( 2.009)	Data  0.000 ( 1.979)	Loss 3.2398e-01 (6.5987e-01)	Acc   1.00 (  0.60)	AUC 0.7741	F1 0.7463	BACC 0.5000
+[2026-04-16 15:14:13] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [12][ 30/127]	Time  0.023 ( 1.369)	Data  0.000 ( 1.341)	Loss 1.3939e-01 (7.0438e-01)	Acc   1.00 (  0.60)	AUC 0.6789	F1 0.7475	BACC 0.5000
+[2026-04-16 15:14:13] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [12][ 40/127]	Time  0.031 ( 1.041)	Data  0.000 ( 1.014)	Loss 1.6464e-01 (6.3474e-01)	Acc   1.00 (  0.66)	AUC 0.7083	F1 0.7941	BACC 0.5000
+[2026-04-16 15:14:14] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [12][ 50/127]	Time  0.030 ( 0.843)	Data  0.000 ( 0.815)	Loss 9.5421e-01 (7.3892e-01)	Acc   0.50 (  0.61)	AUC 0.6266	F1 0.7561	BACC 0.5000
+[2026-04-16 15:14:14] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [12][ 60/127]	Time  0.024 ( 0.709)	Data  0.000 ( 0.682)	Loss 1.3634e-01 (7.0054e-01)	Acc   1.00 (  0.64)	AUC 0.6355	F1 0.7800	BACC 0.5000
+[2026-04-16 15:14:14] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [12][ 70/127]	Time  0.028 ( 0.613)	Data  0.000 ( 0.586)	Loss 1.0693e+00 (6.9253e-01)	Acc   0.50 (  0.65)	AUC 0.6483	F1 0.7863	BACC 0.5000
+[2026-04-16 15:14:15] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [12][ 80/127]	Time  0.023 ( 0.540)	Data  0.000 ( 0.513)	Loss 1.6517e-01 (6.4583e-01)	Acc   1.00 (  0.68)	AUC 0.6713	F1 0.8088	BACC 0.5000
+[2026-04-16 15:14:15] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [12][ 90/127]	Time  0.026 ( 0.484)	Data  0.000 ( 0.457)	Loss 1.3510e-01 (6.1873e-01)	Acc   1.00 (  0.70)	AUC 0.6830	F1 0.8220	BACC 0.5000
+[2026-04-16 15:14:15] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [12][100/127]	Time  0.018 ( 0.438)	Data  0.000 ( 0.412)	Loss 1.4816e-01 (5.8783e-01)	Acc   1.00 (  0.72)	AUC 0.7007	F1 0.8357	BACC 0.5000
+[2026-04-16 15:14:15] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [12][110/127]	Time  0.024 ( 0.401)	Data  0.000 ( 0.375)	Loss 1.6172e-01 (5.7815e-01)	Acc   1.00 (  0.73)	AUC 0.7081	F1 0.8407	BACC 0.5000
+[2026-04-16 15:14:15] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [12][120/127]	Time  0.025 ( 0.370)	Data  0.000 ( 0.344)	Loss 1.2320e+00 (5.6397e-01)	Acc   0.50 (  0.74)	AUC 0.7103	F1 0.8476	BACC 0.5000
+[2026-04-16 15:14:17] test INFO: [WSI_Clinical] Epoch 12 | AUC: 0.7042 | BACC: 0.5000 | F1: 0.8447
+[2026-04-16 15:14:17] train_WSI_Clinical INFO: ---------------------------------------------------------------------------------------------------------------------------
+[2026-04-16 15:14:38] train_WSI_Clinical INFO: ---------------------------------------------------------------------------------------------------------------------------
+[2026-04-16 15:15:23] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [13][  0/127]	Time 44.878 (44.878)	Data 44.783 (44.783)	Loss 7.3972e-01 (7.3972e-01)	Acc   0.50 (  0.50)	AUC 1.0000	F1 0.6667	BACC 0.5000
+[2026-04-16 15:15:24] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [13][ 10/127]	Time  0.062 ( 4.143)	Data  0.000 ( 4.071)	Loss 2.2881e-01 (6.6211e-01)	Acc   1.00 (  0.68)	AUC 0.5714	F1 0.8108	BACC 0.5000
+[2026-04-16 15:15:24] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [13][ 20/127]	Time  0.071 ( 2.203)	Data  0.000 ( 2.133)	Loss 6.8880e-01 (6.7039e-01)	Acc   0.50 (  0.64)	AUC 0.6020	F1 0.7826	BACC 0.4821
+[2026-04-16 15:15:25] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [13][ 30/127]	Time  0.070 ( 1.514)	Data  0.000 ( 1.445)	Loss 2.3203e-01 (6.1675e-01)	Acc   1.00 (  0.69)	AUC 0.5490	F1 0.8190	BACC 0.4778
+[2026-04-16 15:15:26] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [13][ 40/127]	Time  0.062 ( 1.161)	Data  0.000 ( 1.093)	Loss 4.6112e-01 (6.7449e-01)	Acc   1.00 (  0.65)	AUC 0.5069	F1 0.7852	BACC 0.4732
+[2026-04-16 15:15:26] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [13][ 50/127]	Time  0.063 ( 0.946)	Data  0.000 ( 0.878)	Loss 8.6932e-01 (6.1791e-01)	Acc   0.50 (  0.70)	AUC 0.5082	F1 0.8208	BACC 0.4797
+[2026-04-16 15:15:27] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [13][ 60/127]	Time  0.067 ( 0.801)	Data  0.000 ( 0.734)	Loss 7.7993e-01 (6.0967e-01)	Acc   0.50 (  0.70)	AUC 0.5291	F1 0.8269	BACC 0.4831
+[2026-04-16 15:15:27] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [13][ 70/127]	Time  0.060 ( 0.697)	Data  0.000 ( 0.631)	Loss 5.6514e-01 (5.9841e-01)	Acc   0.50 (  0.71)	AUC 0.5539	F1 0.8299	BACC 0.4983
+[2026-04-16 15:15:28] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [13][ 80/127]	Time  0.061 ( 0.619)	Data  0.000 ( 0.553)	Loss 6.3409e-01 (5.9343e-01)	Acc   0.50 (  0.71)	AUC 0.5664	F1 0.8291	BACC 0.4983
+[2026-04-16 15:15:29] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [13][ 90/127]	Time  0.060 ( 0.558)	Data  0.000 ( 0.492)	Loss 1.1946e+00 (5.9159e-01)	Acc   0.00 (  0.71)	AUC 0.5608	F1 0.8323	BACC 0.4986
+[2026-04-16 15:15:29] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [13][100/127]	Time  0.062 ( 0.509)	Data  0.000 ( 0.444)	Loss 4.8743e-01 (5.8457e-01)	Acc   0.50 (  0.72)	AUC 0.5829	F1 0.8328	BACC 0.5131
+[2026-04-16 15:15:30] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [13][110/127]	Time  0.067 ( 0.469)	Data  0.000 ( 0.404)	Loss 1.1734e+00 (5.7579e-01)	Acc   0.50 (  0.73)	AUC 0.5945	F1 0.8382	BACC 0.5127
+[2026-04-16 15:15:31] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [13][120/127]	Time  0.061 ( 0.435)	Data  0.000 ( 0.370)	Loss 1.6308e-01 (5.6747e-01)	Acc   1.00 (  0.73)	AUC 0.6038	F1 0.8426	BACC 0.5122
+[2026-04-16 15:15:32] train_WSI_Clinical INFO: ---------------------------------------------------------------------------------------------------------------------------
+[2026-04-16 15:16:15] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [13][  0/127]	Time 42.791 (42.791)	Data 42.755 (42.755)	Loss 5.0282e-01 (5.0282e-01)	Acc   1.00 (  1.00)	AUC 0.0000	F1 1.0000	BACC 1.0000
+[2026-04-16 15:16:15] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [13][ 10/127]	Time  0.020 ( 3.911)	Data  0.000 ( 3.887)	Loss 6.2196e-01 (6.2875e-01)	Acc   1.00 (  0.68)	AUC 0.6964	F1 0.8000	BACC 0.5625
+[2026-04-16 15:16:15] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [13][ 20/127]	Time  0.028 ( 2.059)	Data  0.000 ( 2.036)	Loss 5.5570e-01 (6.2813e-01)	Acc   1.00 (  0.69)	AUC 0.7624	F1 0.7937	BACC 0.6176
+[2026-04-16 15:16:16] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [13][ 30/127]	Time  0.020 ( 1.403)	Data  0.000 ( 1.379)	Loss 2.6694e-01 (6.4602e-01)	Acc   1.00 (  0.68)	AUC 0.6886	F1 0.7872	BACC 0.6000
+[2026-04-16 15:16:16] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [13][ 40/127]	Time  0.021 ( 1.066)	Data  0.000 ( 1.043)	Loss 3.2050e-01 (5.9849e-01)	Acc   1.00 (  0.72)	AUC 0.7116	F1 0.8244	BACC 0.5893
+[2026-04-16 15:16:16] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [13][ 50/127]	Time  0.021 ( 0.861)	Data  0.000 ( 0.839)	Loss 7.0873e-01 (6.5458e-01)	Acc   0.50 (  0.66)	AUC 0.6383	F1 0.7799	BACC 0.5625
+[2026-04-16 15:16:16] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [13][ 60/127]	Time  0.022 ( 0.723)	Data  0.000 ( 0.701)	Loss 2.6332e-01 (6.2923e-01)	Acc   1.00 (  0.68)	AUC 0.6442	F1 0.8000	BACC 0.5568
+[2026-04-16 15:16:16] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [13][ 70/127]	Time  0.020 ( 0.624)	Data  0.000 ( 0.602)	Loss 8.6472e-01 (6.1844e-01)	Acc   0.50 (  0.68)	AUC 0.6559	F1 0.8035	BACC 0.5500
+[2026-04-16 15:16:17] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [13][ 80/127]	Time  0.021 ( 0.550)	Data  0.000 ( 0.528)	Loss 3.1312e-01 (5.8871e-01)	Acc   1.00 (  0.71)	AUC 0.6778	F1 0.8240	BACC 0.5481
+[2026-04-16 15:16:17] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [13][ 90/127]	Time  0.020 ( 0.492)	Data  0.000 ( 0.470)	Loss 2.5954e-01 (5.7087e-01)	Acc   1.00 (  0.73)	AUC 0.6862	F1 0.8355	BACC 0.5455
+[2026-04-16 15:16:17] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [13][100/127]	Time  0.017 ( 0.445)	Data  0.000 ( 0.424)	Loss 2.6575e-01 (5.4991e-01)	Acc   1.00 (  0.74)	AUC 0.7031	F1 0.8480	BACC 0.5439
+[2026-04-16 15:16:17] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [13][110/127]	Time  0.018 ( 0.407)	Data  0.000 ( 0.385)	Loss 3.0903e-01 (5.4278e-01)	Acc   1.00 (  0.75)	AUC 0.7085	F1 0.8519	BACC 0.5410
+[2026-04-16 15:16:17] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [13][120/127]	Time  0.019 ( 0.375)	Data  0.000 ( 0.354)	Loss 1.0435e+00 (5.3437e-01)	Acc   0.50 (  0.76)	AUC 0.7112	F1 0.8578	BACC 0.5391
+[2026-04-16 15:16:19] test INFO: [WSI_Clinical] Epoch 13 | AUC: 0.7064 | BACC: 0.5368 | F1: 0.8545
+[2026-04-16 15:16:19] train_WSI_Clinical INFO: ---------------------------------------------------------------------------------------------------------------------------
+[2026-04-16 15:16:32] train_WSI_Clinical INFO: ---------------------------------------------------------------------------------------------------------------------------
+[2026-04-16 15:17:13] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [14][  0/127]	Time 40.908 (40.908)	Data 40.812 (40.812)	Loss 2.0029e-01 (2.0029e-01)	Acc   1.00 (  1.00)	AUC 0.0000	F1 1.0000	BACC 1.0000
+[2026-04-16 15:17:14] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [14][ 10/127]	Time  0.062 ( 3.774)	Data  0.000 ( 3.710)	Loss 2.3798e-01 (4.6208e-01)	Acc   1.00 (  0.82)	AUC 0.6111	F1 0.9000	BACC 0.5000
+[2026-04-16 15:17:14] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [14][ 20/127]	Time  0.061 ( 2.007)	Data  0.000 ( 1.944)	Loss 2.9813e-01 (4.8689e-01)	Acc   1.00 (  0.79)	AUC 0.6431	F1 0.8800	BACC 0.5000
+[2026-04-16 15:17:15] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [14][ 30/127]	Time  0.061 ( 1.380)	Data  0.000 ( 1.317)	Loss 1.3410e-01 (4.6742e-01)	Acc   1.00 (  0.81)	AUC 0.6683	F1 0.8929	BACC 0.5000
+[2026-04-16 15:17:16] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [14][ 40/127]	Time  0.067 ( 1.060)	Data  0.000 ( 0.996)	Loss 2.2971e-01 (4.6751e-01)	Acc   1.00 (  0.82)	AUC 0.6468	F1 0.8993	BACC 0.5000
+[2026-04-16 15:17:16] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [14][ 50/127]	Time  0.060 ( 0.865)	Data  0.000 ( 0.800)	Loss 8.8240e-01 (5.1103e-01)	Acc   0.50 (  0.78)	AUC 0.6290	F1 0.8791	BACC 0.5000
+[2026-04-16 15:17:17] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [14][ 60/127]	Time  0.071 ( 0.734)	Data  0.000 ( 0.669)	Loss 3.4201e-01 (5.1484e-01)	Acc   1.00 (  0.78)	AUC 0.6136	F1 0.8756	BACC 0.5000
+[2026-04-16 15:17:18] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [14][ 70/127]	Time  0.070 ( 0.640)	Data  0.000 ( 0.575)	Loss 1.6319e-01 (5.2527e-01)	Acc   1.00 (  0.77)	AUC 0.5980	F1 0.8730	BACC 0.5000
+[2026-04-16 15:17:18] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [14][ 80/127]	Time  0.064 ( 0.569)	Data  0.000 ( 0.504)	Loss 9.2880e-01 (5.4196e-01)	Acc   0.50 (  0.76)	AUC 0.5954	F1 0.8632	BACC 0.5000
+[2026-04-16 15:17:19] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [14][ 90/127]	Time  0.061 ( 0.513)	Data  0.000 ( 0.449)	Loss 3.3222e-01 (5.5381e-01)	Acc   1.00 (  0.75)	AUC 0.6143	F1 0.8562	BACC 0.5312
+[2026-04-16 15:17:19] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [14][100/127]	Time  0.056 ( 0.469)	Data  0.000 ( 0.404)	Loss 3.0664e-01 (5.5750e-01)	Acc   1.00 (  0.75)	AUC 0.6125	F1 0.8530	BACC 0.5249
+[2026-04-16 15:17:20] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [14][110/127]	Time  0.052 ( 0.432)	Data  0.000 ( 0.368)	Loss 2.7831e-01 (5.6050e-01)	Acc   1.00 (  0.74)	AUC 0.6174	F1 0.8496	BACC 0.5278
+[2026-04-16 15:17:21] train_WSI_Clinical INFO: [CT_WSI] Train Epoch: [14][120/127]	Time  0.052 ( 0.400)	Data  0.000 ( 0.338)	Loss 5.3164e-01 (5.6837e-01)	Acc   0.50 (  0.73)	AUC 0.6167	F1 0.8418	BACC 0.5218
+[2026-04-16 15:17:22] train_WSI_Clinical INFO: ---------------------------------------------------------------------------------------------------------------------------
+[2026-04-16 15:18:00] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [14][  0/127]	Time 37.825 (37.825)	Data 37.779 (37.779)	Loss 4.8335e-01 (4.8335e-01)	Acc   1.00 (  1.00)	AUC 0.0000	F1 1.0000	BACC 1.0000
+[2026-04-16 15:18:00] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [14][ 10/127]	Time  0.021 ( 3.460)	Data  0.000 ( 3.436)	Loss 5.9347e-01 (6.2276e-01)	Acc   1.00 (  0.68)	AUC 0.7232	F1 0.8000	BACC 0.5625
+[2026-04-16 15:18:00] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [14][ 20/127]	Time  0.023 ( 1.823)	Data  0.000 ( 1.800)	Loss 5.4293e-01 (6.2176e-01)	Acc   1.00 (  0.69)	AUC 0.7788	F1 0.7937	BACC 0.6176
+[2026-04-16 15:18:00] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [14][ 30/127]	Time  0.019 ( 1.242)	Data  0.000 ( 1.219)	Loss 2.4607e-01 (6.3760e-01)	Acc   1.00 (  0.68)	AUC 0.6984	F1 0.7872	BACC 0.6000
+[2026-04-16 15:18:01] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [14][ 40/127]	Time  0.022 ( 0.944)	Data  0.000 ( 0.922)	Loss 3.1336e-01 (5.9103e-01)	Acc   1.00 (  0.72)	AUC 0.7275	F1 0.8244	BACC 0.5893
+[2026-04-16 15:18:01] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [14][ 50/127]	Time  0.021 ( 0.763)	Data  0.000 ( 0.741)	Loss 7.0483e-01 (6.5016e-01)	Acc   0.50 (  0.66)	AUC 0.6500	F1 0.7799	BACC 0.5625
+[2026-04-16 15:18:01] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [14][ 60/127]	Time  0.027 ( 0.642)	Data  0.000 ( 0.620)	Loss 2.4537e-01 (6.2465e-01)	Acc   1.00 (  0.68)	AUC 0.6559	F1 0.8000	BACC 0.5568
+[2026-04-16 15:18:01] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [14][ 70/127]	Time  0.019 ( 0.555)	Data  0.000 ( 0.532)	Loss 8.5942e-01 (6.1399e-01)	Acc   0.50 (  0.68)	AUC 0.6685	F1 0.8035	BACC 0.5500
+[2026-04-16 15:18:02] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [14][ 80/127]	Time  0.021 ( 0.489)	Data  0.000 ( 0.467)	Loss 3.0733e-01 (5.8432e-01)	Acc   1.00 (  0.71)	AUC 0.6881	F1 0.8240	BACC 0.5481
+[2026-04-16 15:18:02] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [14][ 90/127]	Time  0.019 ( 0.438)	Data  0.000 ( 0.416)	Loss 2.3885e-01 (5.6597e-01)	Acc   1.00 (  0.73)	AUC 0.6982	F1 0.8355	BACC 0.5455
+[2026-04-16 15:18:02] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [14][100/127]	Time  0.016 ( 0.396)	Data  0.000 ( 0.374)	Loss 2.7062e-01 (5.4485e-01)	Acc   1.00 (  0.74)	AUC 0.7151	F1 0.8480	BACC 0.5439
+[2026-04-16 15:18:02] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [14][110/127]	Time  0.018 ( 0.362)	Data  0.000 ( 0.341)	Loss 2.9997e-01 (5.3814e-01)	Acc   1.00 (  0.75)	AUC 0.7196	F1 0.8519	BACC 0.5410
+[2026-04-16 15:18:02] train_WSI_Clinical INFO: [CT_WSI] Valid Epoch: [14][120/127]	Time  0.018 ( 0.334)	Data  0.000 ( 0.313)	Loss 1.0738e+00 (5.3041e-01)	Acc   0.50 (  0.76)	AUC 0.7191	F1 0.8578	BACC 0.5391
+[2026-04-16 15:18:03] test INFO: [WSI_Clinical] Epoch 14 | AUC: 0.7155 | BACC: 0.5368 | F1: 0.8545
+[2026-04-16 15:18:03] train_WSI_Clinical INFO: ---------------------------------------------------------------------------------------------------------------------------
+[2026-04-16 15:18:33] train_WSI_Clinical INFO: ---------------------------------------------------------------------------------------------------------------------------
