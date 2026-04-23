@@ -5,3 +5,6 @@ run
 scripts
 TODO.md
 predictions
+__pycache__/
+*.py[cod]
+*$py.class
